@@ -25,4 +25,4 @@ trip
       1.Java：21
       2.SpringBoot：3.4.1
     2.前端
-      1.Vue：
+      1.Vue
