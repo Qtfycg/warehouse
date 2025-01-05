@@ -1,0 +1,3 @@
+Vue
+
+1.项目创建：npm create vue@latest

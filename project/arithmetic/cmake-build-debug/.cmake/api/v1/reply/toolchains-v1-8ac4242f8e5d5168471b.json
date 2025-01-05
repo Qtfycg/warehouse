@@ -1,0 +1,144 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"E:/code/IDE/toolbox/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include",
+						"E:/code/IDE/toolbox/CLion/bin/mingw/include",
+						"E:/code/IDE/toolbox/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed",
+						"E:/code/IDE/toolbox/CLion/bin/mingw/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"E:/code/IDE/toolbox/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0",
+						"E:/code/IDE/toolbox/CLion/bin/mingw/lib/gcc",
+						"E:/code/IDE/toolbox/CLion/bin/mingw/x86_64-w64-mingw32/lib",
+						"E:/code/IDE/toolbox/CLion/bin/mingw/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"iconv",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "E:/code/IDE/toolbox/CLion/bin/mingw/bin/gcc.exe",
+				"version" : "13.1.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"E:/code/IDE/toolbox/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++",
+						"E:/code/IDE/toolbox/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32",
+						"E:/code/IDE/toolbox/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward",
+						"E:/code/IDE/toolbox/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include",
+						"E:/code/IDE/toolbox/CLion/bin/mingw/include",
+						"E:/code/IDE/toolbox/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed",
+						"E:/code/IDE/toolbox/CLion/bin/mingw/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"E:/code/IDE/toolbox/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0",
+						"E:/code/IDE/toolbox/CLion/bin/mingw/lib/gcc",
+						"E:/code/IDE/toolbox/CLion/bin/mingw/x86_64-w64-mingw32/lib",
+						"E:/code/IDE/toolbox/CLion/bin/mingw/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"iconv",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "E:/code/IDE/toolbox/CLion/bin/mingw/bin/g++.exe",
+				"version" : "13.1.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "E:/code/IDE/toolbox/CLion/bin/mingw/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
