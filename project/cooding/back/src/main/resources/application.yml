@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: back
+  banner:
+    location: classpath:banner.txt
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://112.124.24.102:3306/trip?useSSL=false&serverTimezone=UTC
+    username: root
+    password: '050406'
+  data:
+    redis:
+      host: '112.124.24.102'
+      port: '6379'
+      password: '050406'
+      database: 1
+
