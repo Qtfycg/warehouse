@@ -1,3 +1,4 @@
+# 项目配置文件
 spring:
   application:
     name: back
@@ -14,4 +15,12 @@ spring:
       port: '6379'
       password: '050406'
       database: 1
-
+### MyBatis Plus 配置
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+  global-config:
+    # 全局配置
+    db-config:
+      # 数据库配置
+      id-type: auto
