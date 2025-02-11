@@ -6,6 +6,7 @@ import org.apache.ibatis.annotations.Mapper;
 
 @Mapper
 public interface adminMapper extends BaseMapper<admin> {
+    public  void login(String adminName, String adminPassword);
 
 }
 

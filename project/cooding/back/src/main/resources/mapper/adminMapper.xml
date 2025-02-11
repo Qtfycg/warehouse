@@ -16,4 +16,7 @@
         id,name,password,
         tel,description
     </sql>
+    <select id="login" resultType="com.qtfycg.back.domain.admin">
+
+    </select>
 </mapper>

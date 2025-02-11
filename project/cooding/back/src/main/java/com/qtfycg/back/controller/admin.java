@@ -5,9 +5,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController("/admin")
 public class admin {
+
     /*管理员登录*/
     @RequestMapping("/login")
     public void login() {
+        // 登录
+
+
+
     }
 
     public void logout() {
