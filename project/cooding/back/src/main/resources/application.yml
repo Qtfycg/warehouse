@@ -1,0 +1,4 @@
+spring:
+  # 项目名称
+  application:
+    name: back
