@@ -2,3 +2,37 @@ spring:
   # 项目名称
   application:
     name: back
+
+  # 数据源配置
+  datasource:
+    druid:
+      name: mysql
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://112.124.24.102:3306/coding?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
+      username: root
+      password: '050406'
+      initial-size: 5
+      min-idle: 5
+      max-wait: 3600
+      max-active: 20
+      poolPreparedStatements: false
+      filter:
+        slf4j:
+          enabled: true
+  # redis配置
+  data:
+    redis:
+      host: 112.124.24.102
+      port: 6379
+      password: '050406'
+      timeout: 5s
+      database: 1
+      connect-timeout: 5s
+
+# MyBatis-Plus 配置
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+  global-config:
+    db-config:
+      id-type: auto
