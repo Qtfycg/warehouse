@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/travel.iml" filepath="$PROJECT_DIR$/.idea/modules/travel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/travel-back.iml" filepath="$PROJECT_DIR$/.idea/modules/travel-back.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/travel-back.main.iml" filepath="$PROJECT_DIR$/.idea/modules/travel-back.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/travel-back.test.iml" filepath="$PROJECT_DIR$/.idea/modules/travel-back.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/travel-api/travel-back.travel-api.iml" filepath="$PROJECT_DIR$/.idea/modules/travel-api/travel-back.travel-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/travel-api/travel-back.travel-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/travel-api/travel-back.travel-api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/travel-api/travel-back.travel-api.test.iml" filepath="$PROJECT_DIR$/.idea/modules/travel-api/travel-back.travel-api.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/travel-common/travel-back.travel-common.iml" filepath="$PROJECT_DIR$/.idea/modules/travel-common/travel-back.travel-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/travel-common/travel-back.travel-common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/travel-common/travel-back.travel-common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/travel-common/travel-back.travel-common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/travel-common/travel-back.travel-common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/travel-user/travel-back.travel-user.iml" filepath="$PROJECT_DIR$/.idea/modules/travel-user/travel-back.travel-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/travel-user/travel-back.travel-user.main.iml" filepath="$PROJECT_DIR$/.idea/modules/travel-user/travel-back.travel-user.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/travel-user/travel-back.travel-user.test.iml" filepath="$PROJECT_DIR$/.idea/modules/travel-user/travel-back.travel-user.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel-front/travel-front.iml" filepath="$PROJECT_DIR$/travel-front/travel-front.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/travel.main.iml" filepath="$PROJECT_DIR$/.idea/modules/travel.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/travel.test.iml" filepath="$PROJECT_DIR$/.idea/modules/travel.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/travel-api/travel.travel-api.iml" filepath="$PROJECT_DIR$/.idea/modules/travel-api/travel.travel-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/travel-api/travel.travel-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/travel-api/travel.travel-api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/travel-api/travel.travel-api.test.iml" filepath="$PROJECT_DIR$/.idea/modules/travel-api/travel.travel-api.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/travel-common/travel.travel-common.iml" filepath="$PROJECT_DIR$/.idea/modules/travel-common/travel.travel-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/travel-common/travel.travel-common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/travel-common/travel.travel-common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/travel-common/travel.travel-common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/travel-common/travel.travel-common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/travel-user/travel.travel-user.iml" filepath="$PROJECT_DIR$/.idea/modules/travel-user/travel.travel-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/travel-user/travel.travel-user.main.iml" filepath="$PROJECT_DIR$/.idea/modules/travel-user/travel.travel-user.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/travel-user/travel.travel-user.test.iml" filepath="$PROJECT_DIR$/.idea/modules/travel-user/travel.travel-user.test.iml" />
+    </modules>
+  </component>
+</project>

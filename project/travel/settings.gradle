@@ -1,0 +1,5 @@
+rootProject.name = 'travel'
+include 'travel-common'
+include 'travel-api'
+include 'travel-user'
+
