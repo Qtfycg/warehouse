@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.baomidou:mybatis-plus-spring-boot3-starter:3.5.10.1" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.baomidou" artifactId="mybatis-plus-spring-boot3-starter" version="3.5.10.1" baseVersion="3.5.10.1" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../resource/Gerepository/caches/modules-2/files-2.1/com.baomidou/mybatis-plus-spring-boot3-starter/3.5.10.1/6597c95914c0c043b0b40746d64a8747512fd675/mybatis-plus-spring-boot3-starter-3.5.10.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

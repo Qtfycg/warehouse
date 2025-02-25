@@ -1,6 +1,0 @@
-dependencies {
-/*lombok*/
-implementation 'org.projectlombok:lombok'
-
-}
-

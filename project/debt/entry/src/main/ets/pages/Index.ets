@@ -7,7 +7,7 @@ struct Index {
     RelativeContainer() {
       Text(this.message)
         .id('HelloWorld')
-        .fontSize(50)
+        .fontSize(100)
         .fontWeight(FontWeight.Bold)
         .alignRules({
           center: { anchor: '__container__', align: VerticalAlign.Center },

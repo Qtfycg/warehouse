@@ -1,0 +1,6 @@
+rootProject.name = 'coding'
+include 'core'
+include 'api'
+include 'web'
+include 'service'
+
