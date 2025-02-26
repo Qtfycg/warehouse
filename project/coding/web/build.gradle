@@ -1,5 +1,10 @@
 
 dependencies {
 
+    /*Lombok*/
+    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.36'
+    implementation ':api',':core',':service'
+
+
 }
 

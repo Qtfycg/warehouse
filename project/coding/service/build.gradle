@@ -2,5 +2,6 @@
 
 dependencies {
 
+    implementation ':api',':core',':web'
 }
 
