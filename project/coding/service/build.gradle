@@ -2,6 +2,9 @@
 
 dependencies {
 
+<<<<<<< HEAD
     implementation ':api',':core',':web'
+=======
+>>>>>>> e603f45c00bf97997b64fda83101a4a693985b24
 }
 

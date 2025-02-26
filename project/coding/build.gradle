@@ -1,9 +1,19 @@
+<<<<<<< HEAD
 
 allprojects {
 
     apply plugin: 'java'
 
 
+=======
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.4.3'
+    id 'io.spring.dependency-management' version '1.1.7'
+}
+allprojects {
+
+>>>>>>> e603f45c00bf97997b64fda83101a4a693985b24
     group = 'com.qtfycg'
     version = '1.0.0'
 
@@ -26,6 +36,7 @@ subprojects {
 
     dependencies {
 
+<<<<<<< HEAD
         /*actuator*/
         implementation group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: '3.4.3'
         /*starter*/
@@ -39,6 +50,8 @@ subprojects {
         compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.36'
 
 
+=======
+>>>>>>> e603f45c00bf97997b64fda83101a4a693985b24
 
     }
 

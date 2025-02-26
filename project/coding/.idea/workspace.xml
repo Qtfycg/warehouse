@@ -18,6 +18,7 @@
       <ProjectState />
     </projectState>
   </component>
+<<<<<<< HEAD
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -42,11 +43,14 @@
       </list>
     </option>
   </component>
+=======
+>>>>>>> e603f45c00bf97997b64fda83101a4a693985b24
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
+<<<<<<< HEAD
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
@@ -59,6 +63,20 @@
     &quot;accountId&quot;: &quot;24401ad8-b5db-4bbb-b74a-a6399ea8bfcc&quot;
   }
 }</component>
+=======
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Qtfycg"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:Qtfycg/warehouse.git",
+    "accountId": "24401ad8-b5db-4bbb-b74a-a6399ea8bfcc"
+  }
+}]]></component>
+>>>>>>> e603f45c00bf97997b64fda83101a4a693985b24
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -79,9 +97,15 @@
       </MavenImportingSettings>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
+=======
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+>>>>>>> e603f45c00bf97997b64fda83101a4a693985b24
   <component name="ProjectId" id="2tXQeNwY0hadrUzlCqTgLiRdZF3" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -93,6 +117,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+<<<<<<< HEAD
     "Gradle.coding [dependencies].executor": "Run",
     "Gradle.构建 coding.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
@@ -107,6 +132,13 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/code/warehouse/warehouse/project/coding/api/src/main/java/com/qtfycg/api",
+=======
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+>>>>>>> e603f45c00bf97997b64fda83101a4a693985b24
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -120,6 +152,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+<<<<<<< HEAD
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\code\warehouse\warehouse\project\coding\api\src\main\java\com\qtfycg\api" />
@@ -154,10 +187,20 @@
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="coding" />
+=======
+  <component name="RunManager" selected="JavaScript 调试.Debug Application">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:5173">
+      <method v="2" />
+    </configuration>
+    <configuration name="CodingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="coding.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qtfycg.coding.CodingApplication" />
+>>>>>>> e603f45c00bf97997b64fda83101a4a693985b24
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="coding" />
       <option name="filePath" />
@@ -175,6 +218,8 @@
         <item itemvalue="Gradle.coding [dependencies]" />
       </list>
     </recent_temporary>
+=======
+>>>>>>> e603f45c00bf97997b64fda83101a4a693985b24
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -200,10 +245,13 @@
       <updated>1723733041522</updated>
       <workItem from="1723733042559" duration="652000" />
       <workItem from="1740496036186" duration="638000" />
+<<<<<<< HEAD
       <workItem from="1740554813719" duration="25000" />
       <workItem from="1740557965803" duration="24000" />
       <workItem from="1740558027528" duration="954000" />
       <workItem from="1740559029747" duration="3617000" />
+=======
+>>>>>>> e603f45c00bf97997b64fda83101a4a693985b24
     </task>
     <servers />
   </component>

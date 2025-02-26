@@ -1,10 +1,13 @@
 
 dependencies {
 
+<<<<<<< HEAD
     /*Lombok*/
     compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.36'
     implementation ':api',':core',':service'
 
 
+=======
+>>>>>>> e603f45c00bf97997b64fda83101a4a693985b24
 }
 
