@@ -1,63 +1,46 @@
-<<<<<<< HEAD
+    allprojects {
 
-allprojects {
+        apply plugin: 'java'
 
-    apply plugin: 'java'
-
-
-=======
-plugins {
-    id 'java'
-    id 'org.springframework.boot' version '3.4.3'
-    id 'io.spring.dependency-management' version '1.1.7'
-}
-allprojects {
-
->>>>>>> e603f45c00bf97997b64fda83101a4a693985b24
-    group = 'com.qtfycg'
-    version = '1.0.0'
+        group = 'com.qtfycg'
+        version = '1.0.0'
 
 
-    java {
-        toolchain {
-            languageVersion = JavaLanguageVersion.of(21)
+        java {
+            toolchain {
+                languageVersion = JavaLanguageVersion.of(21)
+            }
+        }
+
+        repositories {
+            mavenLocal()
+            mavenCentral()
+        }
+
+    }
+
+    subprojects {
+
+
+        dependencies {
+
+            /*actuator*/
+            implementation group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: '3.4.3'
+            /*starter*/
+            implementation group: 'org.springframework.boot', name: 'spring-boot-starter', version: '3.4.3'
+            /*web*/
+            implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '3.4.3'
+            /*test*/
+            testImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '3.4.3'
+
+            /*Lombok*/
+            compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.36'
+
+
+        }
+
+
+        test {
+            useJUnitPlatform()
         }
     }
-
-    repositories {
-        mavenLocal()
-        mavenCentral()
-    }
-
-}
-
-subprojects {
-
-
-    dependencies {
-
-<<<<<<< HEAD
-        /*actuator*/
-        implementation group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: '3.4.3'
-        /*starter*/
-        implementation group: 'org.springframework.boot', name: 'spring-boot-starter', version: '3.4.3'
-        /*web*/
-        implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '3.4.3'
-        /*test*/
-        testImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '3.4.3'
-
-        /*Lombok*/
-        compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.36'
-
-
-=======
->>>>>>> e603f45c00bf97997b64fda83101a4a693985b24
-
-    }
-
-
-    test {
-        useJUnitPlatform()
-    }
-}
-

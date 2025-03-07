@@ -1,4 +1,4 @@
-package com.qtfycg.web;
+package com.qtfycg.web.configure;
 
 public class redis {
 }

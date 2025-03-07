@@ -11,8 +11,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/travel-api" />
-            <option value="$PROJECT_DIR$/travel-common" />
-            <option value="$PROJECT_DIR$/travel-user" />
+            <option value="$PROJECT_DIR$/travel-entity" />
+            <option value="$PROJECT_DIR$/travel-service" />
+            <option value="$PROJECT_DIR$/travel-web" />
           </set>
         </option>
       </GradleProjectSettings>

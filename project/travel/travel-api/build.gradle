@@ -1,6 +1,8 @@
 dependencies {
-    /*spring-boot-starter-web*/
-    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'com.github.whvcse:easy-captcha:1.6.2'
+    implementation(":travel-service")
+
+
 
 }
 

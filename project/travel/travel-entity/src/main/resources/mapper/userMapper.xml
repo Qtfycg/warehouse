@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.userMapper">
+<mapper namespace="com.qtfycg.entity.mapper.userMapper">
 
-    <resultMap id="BaseResultMap" type="generator.domain.user">
+    <resultMap id="BaseResultMap" type="com.qtfycg.entity.domain.user">
             <id property="id" column="id" jdbcType="INTEGER"/>
             <result property="name" column="name" jdbcType="VARCHAR"/>
             <result property="password" column="password" jdbcType="VARCHAR"/>
@@ -16,4 +16,9 @@
         id,name,password,
         tel,email
     </sql>
+    <!--用户登录数据库语句-->
+    <select id="login" resultType="com.qtfycg.entity.domain.user">
+
+    </select>
+
 </mapper>

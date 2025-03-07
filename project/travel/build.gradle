@@ -39,10 +39,14 @@ subprojects {
         testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
         /*MySQL*/
         implementation group: 'com.mysql', name: 'mysql-connector-j', version: '9.2.0'
-        /*mybatis-plus*/
-        implementation group: 'com.baomidou', name: 'mybatis-plus-spring-boot3-starter', version: '3.5.10.1'
         /*druid*/
         implementation group: 'com.alibaba', name: 'druid-spring-boot-starter', version: '1.2.24'
+        /*web*/
+        implementation 'org.springframework.boot:spring-boot-starter-web'
+        /*redis*/
+        implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-redis', version: '3.4.2'
+
+
 
     }
 
