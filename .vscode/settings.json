@@ -1,8 +1,0 @@
-{
-    "editor.wordWrap": "on", // 自动换行
-    "markdown.preview.breaks": true, // 允许换行
-    "markdown.preview.doubleClickToSwitchToEditor": false, // 关闭双击切换编辑模式
-    "markdown-preview-enhanced.enableHighlight": true,
-    "markdown-preview-enhanced.customCSS":"file:///E:/code/warehouse/warehouse/.vscode/mpe.css"
-    
-}
