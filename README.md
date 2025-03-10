@@ -12,11 +12,10 @@
   二次开发后形成此项目，前端采用Vue重写，后端技术栈升级Spring Boot3
   具体情况在项目对应文档中可一一查看
 
-2.Travel
   
-3.debt
+2.debt
   
-4.arithmetic
+3.arithmetic
 ```
 
 ### rudiments

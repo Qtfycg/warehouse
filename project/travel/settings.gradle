@@ -1,6 +1,0 @@
-rootProject.name = 'travel'
-include 'travel-entity'
-include 'travel-api'
-include 'travel-web'
-include 'travel-service'
-

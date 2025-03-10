@@ -1,5 +1,0 @@
-dependencies {
-    /*mybatis-plus*/
-    implementation group: 'com.baomidou', name: 'mybatis-plus-spring-boot3-starter', version: '3.5.10.1'
-}
-
