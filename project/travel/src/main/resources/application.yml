@@ -1,4 +1,14 @@
 spring:
   application:
     name: travel
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://112.124.24.102:3306/travel?useSSL=false&serverTimezone=UTC
+    username: root
+    password: '050406'
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
 
