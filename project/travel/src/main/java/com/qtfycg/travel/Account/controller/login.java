@@ -18,13 +18,17 @@ public class login {
     public String user(String username, String password) {
         boolean user = accountService.login(username, password);
         if (user) {
-            return "登陆成功";
+            return "用户登陆成功";
         }
-        return "登陆失败";
+        return "用户登陆失败";
     }
     @RequestMapping("/admin")
     public String admin(String username, String password) {
-        return "login";
+        boolean admin = accountService.login(username, password);
+        if (admin) {
+            return "管理员登陆成功";
+        }
+        return "管理员登陆失败";
     }
 
 }
