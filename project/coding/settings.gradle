@@ -1,6 +1,8 @@
 rootProject.name = 'coding'
-include 'core'
-include 'api'
-include 'web'
-include 'service'
 
+include 'common'
+include 'domain'
+include 'application'
+include 'infrastructure'
+include 'interface'
+include 'start'

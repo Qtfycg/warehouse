@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ui/ui.iml" filepath="$PROJECT_DIR$/ui/ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/application/coding.application.main.iml" filepath="$PROJECT_DIR$/.idea/modules/application/coding.application.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/coding.domain.main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/coding.domain.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/coding.infrastructure.main.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/coding.infrastructure.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/interface/coding.interface.main.iml" filepath="$PROJECT_DIR$/.idea/modules/interface/coding.interface.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/start/coding.start.main.iml" filepath="$PROJECT_DIR$/.idea/modules/start/coding.start.main.iml" />
     </modules>
   </component>
 </project>

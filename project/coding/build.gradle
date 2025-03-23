@@ -1,46 +1,38 @@
-    allprojects {
+plugins {
+    id 'java'
+}
 
-        apply plugin: 'java'
+allprojects {
+    group = 'com.qtfycg'
+    version = '1.0-SNAPSHOT'
 
-        group = 'com.qtfycg'
-        version = '1.0.0'
+    repositories {
+        mavenCentral()
+    }
+}
 
+subprojects {
+    apply plugin: 'java'
 
-        java {
-            toolchain {
-                languageVersion = JavaLanguageVersion.of(21)
-            }
-        }
-
-        repositories {
-            mavenLocal()
-            mavenCentral()
-        }
-
+    java {
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
     }
 
-    subprojects {
-
-
-        dependencies {
-
-            /*actuator*/
-            implementation group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: '3.4.3'
-            /*starter*/
-            implementation group: 'org.springframework.boot', name: 'spring-boot-starter', version: '3.4.3'
-            /*web*/
-            implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '3.4.3'
-            /*test*/
-            testImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '3.4.3'
-
-            /*Lombok*/
-            compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.36'
-
-
-        }
-
-
-        test {
-            useJUnitPlatform()
-        }
+    dependencies {
+        /*test*/
+        testImplementation 'org.junit.jupiter:junit-jupiter:5.9.2'
+        /*web*/
+        implementation 'org.springframework.boot:spring-boot-starter-web'
+        /*mysql*/
+        implementation group: 'com.mysql', name: 'mysql-connector-j', version: '9.2.0'
+        /*druid*/
+        implementation group: 'com.alibaba', name: 'druid-spring-boot-starter', version: '1.2.24'
+        /*mybatis-plus*/
+        implementation group: 'com.baomidou', name: 'mybatis-plus-spring-boot3-starter', version: '3.5.10.1'
     }
+
+    test {
+        useJUnitPlatform()
+    }
+}
