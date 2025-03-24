@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8a938d6b-ae1c-4736-b4f5-3f72ad1e561e" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Qtfycg&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Qtfycg/warehouse.git&quot;,
+    &quot;accountId&quot;: &quot;24401ad8-b5db-4bbb-b74a-a6399ea8bfcc&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="customMavenHome" value="E:\code\resource\apache-maven-3.9.8" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="printErrorStackTraces" value="true" />
+        <option name="showDialogWithAdvancedSettings" value="true" />
+        <option name="userSettingsFile" value="E:\code\resource\apache-maven-3.9.8\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="jdkForImporter" value="21" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2uk9YhfNTiziFpuNvgYI70QoJGg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ApiPost:METDOD_SEND_RECORD:travel.user.main": "{\"/login/user\":[{\"url\":\"http://localhost:8080/login/user\",\"header\":[],\"query\":[{\"key\":\"username\",\"value\":\"qtfy\",\"type\":\"Text\",\"description\":\"\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"String\"},{\"key\":\"password\",\"value\":\"159357qaz\",\"type\":\"Text\",\"description\":\"\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"String\"}],\"rest\":[],\"cookie\":[],\"body\":{\"mode\":\"none\",\"parameter\":[],\"raw\":\"\",\"raw_para\":[]},\"responseBody\":\"User login successful. Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJleHAiOjE3NDI4MTA5MDE4ODUsInVzZXJuYW1lIjoicXRmeSJ9.HjiTGM_9XTuYG6E2kspftOrEwNjHETsOaI8r3QQjhhfpgjIzqwEW6Qb7hMqsL3dwGHjqOc_ZkUhYGvTjpAdD2A\",\"responseHeader\":{\"null\":[\"HTTP/1.1 200\"],\"Keep-Alive\":[\"timeout\\u003d60\"],\"Connection\":[\"keep-alive\"],\"Content-Length\":[\"206\"],\"Date\":[\"Mon, 24 Mar 2025 09:08:21 GMT\"],\"Content-Type\":[\"text/html;charset\\u003dUTF-8\"]},\"responseCookieList\":[],\"selectedItem\":\"POST\",\"time\":{\"date\":{\"year\":2025.0,\"month\":3.0,\"day\":24.0},\"time\":{\"hour\":17.0,\"minute\":8.0,\"second\":21.0,\"nano\":9.027771E8}}},{\"url\":\"http://localhost:8080/login/user\",\"header\":[],\"query\":[{\"key\":\"username\",\"value\":\"qtfy\",\"type\":\"Text\",\"description\":\"\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"String\"},{\"key\":\"password\",\"value\":\"159357qaz\",\"type\":\"Text\",\"description\":\"\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"String\"}],\"rest\":[],\"cookie\":[],\"body\":{\"mode\":\"none\",\"parameter\":[],\"raw\":\"\",\"raw_para\":[]},\"responseBody\":\"Fail to send:http://localhost:8080/login/user?password\\u003d159357qaz\\u0026username\\u003dqtfy\\n\\n\",\"responseHeader\":{\"null\":[\"HTTP/1.1 302\"],\"Keep-Alive\":[\"timeout\\u003d60\"],\"X-Content-Type-Options\":[\"nosniff\"],\"Connection\":[\"keep-alive\"],\"Pragma\":[\"no-cache\"],\"Date\":[\"Mon, 24 Mar 2025 09:22:23 GMT\"],\"X-Frame-Options\":[\"DENY\"],\"Cache-Control\":[\"no-cache, no-store, max-age\\u003d0, must-revalidate\"],\"Vary\":[\"Origin\",\"Access-Control-Request-Method\",\"Access-Control-Request-Headers\"],\"Set-Cookie\":[\"JSESSIONID\\u003d87932ECA0479A9AF26C147D4798F53D4; Path\\u003d/; HttpOnly\"],\"Expires\":[\"0\"],\"X-XSS-Protection\":[\"0\"],\"Content-Length\":[\"0\"],\"Location\":[\"http://localhost:8080/login;jsessionid\\u003d87932ECA0479A9AF26C147D4798F53D4\"]},\"responseCookieList\":[{\"name\":\"JSESSIONID\",\"value\":\"87932ECA0479A9AF26C147D4798F53D4\",\"httpOnly\":\"true\",\"domain\":\"localhost.local\",\"expires\":\"-\",\"path\":\"/\",\"secure\":\"false\"}],\"selectedItem\":\"POST\",\"time\":{\"date\":{\"year\":2025.0,\"month\":3.0,\"day\":24.0},\"time\":{\"hour\":17.0,\"minute\":22.0,\"second\":23.0,\"nano\":1.813346E8}}},{\"url\":\"http://localhost:8080/login/user\",\"header\":[],\"query\":[{\"key\":\"username\",\"value\":\"qtfycg\",\"type\":\"Text\",\"description\":\"\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"String\"},{\"key\":\"password\",\"value\":\"159357\",\"type\":\"Text\",\"description\":\"\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"String\"}],\"rest\":[],\"cookie\":[],\"body\":{\"mode\":\"none\",\"parameter\":[],\"raw\":\"\",\"raw_para\":[]},\"responseBody\":\"Fail to send:http://localhost:8080/login/user?password\\u003d159357\\u0026username\\u003dqtfycg\\n\\n\",\"responseHeader\":{\"null\":[\"HTTP/1.1 302\"],\"Keep-Alive\":[\"timeout\\u003d60\"],\"X-Content-Type-Options\":[\"nosniff\"],\"Connection\":[\"keep-alive\"],\"Pragma\":[\"no-cache\"],\"Date\":[\"Mon, 24 Mar 2025 09:23:39 GMT\"],\"X-Frame-Options\":[\"DENY\"],\"Cache-Control\":[\"no-cache, no-store, max-age\\u003d0, must-revalidate\"],\"Vary\":[\"Origin\",\"Access-Control-Request-Method\",\"Access-Control-Request-Headers\"],\"Set-Cookie\":[\"JSESSIONID\\u003d32DBDF19A9F5FC54DDFDFEF5604D0B82; Path\\u003d/; HttpOnly\"],\"Expires\":[\"0\"],\"X-XSS-Protection\":[\"0\"],\"Content-Length\":[\"0\"],\"Location\":[\"http://localhost:8080/login;jsessionid\\u003d32DBDF19A9F5FC54DDFDFEF5604D0B82\"]},\"responseCookieList\":[{\"name\":\"JSESSIONID\",\"value\":\"32DBDF19A9F5FC54DDFDFEF5604D0B82\",\"httpOnly\":\"true\",\"domain\":\"localhost.local\",\"expires\":\"-\",\"path\":\"/\",\"secure\":\"false\"}],\"selectedItem\":\"POST\",\"time\":{\"date\":{\"year\":2025.0,\"month\":3.0,\"day\":24.0},\"time\":{\"hour\":17.0,\"minute\":23.0,\"second\":39.0,\"nano\":3.82745E8}}},{\"url\":\"http://localhost:8080/login/user\",\"header\":[],\"query\":[{\"key\":\"username\",\"value\":\"qtfycg\",\"type\":\"Text\",\"description\":\"\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"String\"},{\"key\":\"password\",\"value\":\"159357\",\"type\":\"Text\",\"description\":\"\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"String\"}],\"rest\":[],\"cookie\":[],\"body\":{\"mode\":\"none\",\"parameter\":[],\"raw\":\"\",\"raw_para\":[]},\"responseBody\":\"User login successful. Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJleHAiOjE3NDI4MTE4NjI2MzksInVzZXJuYW1lIjoicXRmeWNnIn0.F5KasOL5KspVLHDzPsX5ILjHr6gcwbJ9oVOBTv4LMSQEElkfBJsnTEObmJCFkMYOFe1b8o_v59rPp8P0osW8ug\",\"responseHeader\":{\"null\":[\"HTTP/1.1 200\"],\"Keep-Alive\":[\"timeout\\u003d60\"],\"Connection\":[\"keep-alive\"],\"Content-Length\":[\"209\"],\"Date\":[\"Mon, 24 Mar 2025 09:24:22 GMT\"],\"Content-Type\":[\"text/html;charset\\u003dUTF-8\"]},\"responseCookieList\":[],\"selectedItem\":\"POST\",\"time\":{\"date\":{\"year\":2025.0,\"month\":3.0,\"day\":24.0},\"time\":{\"hour\":17.0,\"minute\":24.0,\"second\":22.0,\"nano\":6.70894E8}}},{\"url\":\"http://localhost:8080/login/user\",\"header\":[],\"query\":[{\"key\":\"username\",\"value\":\"qtfy\",\"type\":\"Text\",\"description\":\"\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"String\"},{\"key\":\"password\",\"value\":\"159357qaz\",\"type\":\"Text\",\"description\":\"\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"String\"}],\"rest\":[],\"cookie\":[],\"body\":{\"mode\":\"none\",\"parameter\":[],\"raw\":\"\",\"raw_para\":[]},\"responseBody\":\"Invalid username or password\",\"responseHeader\":{\"null\":[\"HTTP/1.1 200\"],\"Keep-Alive\":[\"timeout\\u003d60\"],\"Connection\":[\"keep-alive\"],\"Content-Length\":[\"28\"],\"Date\":[\"Mon, 24 Mar 2025 09:24:37 GMT\"],\"Content-Type\":[\"text/html;charset\\u003dUTF-8\"]},\"responseCookieList\":[],\"selectedItem\":\"POST\",\"time\":{\"date\":{\"year\":2025.0,\"month\":3.0,\"day\":24.0},\"time\":{\"hour\":17.0,\"minute\":24.0,\"second\":37.0,\"nano\":8.987463E8}}}],\"/login/admin\":[{\"url\":\"http://localhost:8080/login/admin\",\"header\":[],\"query\":[{\"key\":\"username\",\"value\":\"qtfycg\",\"type\":\"Text\",\"description\":\"\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"String\"},{\"key\":\"password\",\"value\":\"159357\",\"type\":\"Text\",\"description\":\"\",\"is_checked\":1.0,\"not_null\":\"0\",\"field_type\":\"String\"}],\"rest\":[],\"cookie\":[],\"body\":{\"mode\":\"none\",\"parameter\":[],\"raw\":\"\",\"raw_para\":[]},\"responseBody\":\"Invalid username or password\",\"responseHeader\":{\"null\":[\"HTTP/1.1 200\"],\"Keep-Alive\":[\"timeout\\u003d60\"],\"Connection\":[\"keep-alive\"],\"Content-Length\":[\"28\"],\"Date\":[\"Mon, 24 Mar 2025 09:24:52 GMT\"],\"Content-Type\":[\"text/html;charset\\u003dUTF-8\"]},\"responseCookieList\":[],\"selectedItem\":\"POST\",\"time\":{\"date\":{\"year\":2025.0,\"month\":3.0,\"day\":24.0},\"time\":{\"hour\":17.0,\"minute\":24.0,\"second\":52.0,\"nano\":6.485621E8}}},{\"url\":\"http://localhost:8080/login/admin\",\"header\":[],\"query\":[{\"key\":\"username\",\"value\":\"qtfy\",\"type\":\"Text\",\"description\":\"\",\"is_checked\":1,\"not_null\":\"0\",\"field_type\":\"String\"},{\"key\":\"password\",\"value\":\"159357qaz\",\"type\":\"Text\",\"description\":\"\",\"is_checked\":1,\"not_null\":\"0\",\"field_type\":\"String\"}],\"rest\":[],\"cookie\":[],\"body\":{\"mode\":\"none\",\"parameter\":[],\"raw\":\"\",\"raw_para\":[]},\"responseBody\":\"Admin login successful. Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJleHAiOjE3NDI4MTE5MDI3NjQsInVzZXJuYW1lIjoicXRmeSJ9.Vv-IBb7JJYo5g6nJGwYDGXXTRLhGEB6qxOwso4uF6f-MpiajledxRlz-C9z4IJYD09zoXARsDXZNMQzv_4Y0JA\",\"responseHeader\":{\"null\":[\"HTTP/1.1 200\"],\"Keep-Alive\":[\"timeout\\u003d60\"],\"Connection\":[\"keep-alive\"],\"Content-Length\":[\"207\"],\"Date\":[\"Mon, 24 Mar 2025 09:25:02 GMT\"],\"Content-Type\":[\"text/html;charset\\u003dUTF-8\"]},\"responseCookieList\":[],\"selectedItem\":\"POST\",\"time\":{\"date\":{\"year\":2025,\"month\":3,\"day\":24},\"time\":{\"hour\":17,\"minute\":25,\"second\":2,\"nano\":766489000}}}]}",
+    "Gradle.构建 travel.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.TravelAuthApplication.executor": "Run",
+    "Spring Boot.TravelCommonApplication.executor": "Run",
+    "Spring Boot.TravelGatewayApplication.executor": "Run",
+    "Spring Boot.TravelOrderApplication.executor": "Run",
+    "Spring Boot.TravelProductApplication.executor": "Run",
+    "Spring Boot.TravelQuotaApplication.executor": "Run",
+    "Spring Boot.TravelSearchApplication.executor": "Run",
+    "Spring Boot.TravelThirdPartyApplication.executor": "Run",
+    "Spring Boot.TravelUserApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/code/warehouse/warehouse/project/travel/common/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\warehouse\warehouse\project\travel\common\src\main\resources" />
+      <recent name="E:\code\warehouse\warehouse\project\travel\user\src\main\resources" />
+      <recent name="E:\code\warehouse\warehouse\project\travel\user\src\main\java\com\example" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.TravelUserApplication">
+    <configuration name="TravelAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="travel.auth.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.TravelAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TravelCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="travel.common.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.TravelCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TravelGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="travel.gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.TravelGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TravelOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="travel.order.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.TravelOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TravelProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="travel.product.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.TravelProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TravelQuotaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="travel.quota.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.TravelQuotaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TravelSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="travel.search.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.TravelSearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TravelThirdPartyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="travel.third-party.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.TravelThirdPartyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TravelUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="travel.user.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.TravelUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="ShelveChangesManager">
+    <option name="remove_strategy" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\12643\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="8a938d6b-ae1c-4736-b4f5-3f72ad1e561e" name="更改" comment="" />
+      <created>1723733041522</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723733041522</updated>
+      <workItem from="1723733042559" duration="652000" />
+      <workItem from="1742781755914" duration="2342000" />
+      <workItem from="1742784799141" duration="11575000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myShow1" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CODE_SMELLS_PROFILE" value="Default" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+</project>

@@ -1,1 +1,11 @@
 rootProject.name = 'travel'
+
+include 'common'
+include 'gateway'
+include 'auth'
+include 'user'
+include 'product'
+include 'order'
+include 'quota'
+include 'search'
+include 'third-party'

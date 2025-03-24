@@ -1,0 +1,13 @@
+plugins {
+    id 'org.springframework.boot' version '3.2.2'
+    id 'io.spring.dependency-management'
+}
+
+dependencies {
+    /*hutool*/
+    implementation group: 'cn.hutool', name: 'hutool-all', version: '5.8.36'
+    /*jwt*/
+    implementation group: 'com.auth0', name: 'java-jwt', version: '4.5.0'
+    /*swagger*/
+    implementation group: 'com.github.xiaoymin', name: 'knife4j-openapi3-jakarta-spring-boot-starter', version: '4.5.0'
+}
