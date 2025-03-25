@@ -1,8 +1,5 @@
 <component name="CopyrightManager">
-  <settings default="qtfycg">
-    <module2copyright>
-      <element module="All" copyright="qtfycg" />
-    </module2copyright>
+  <settings>
     <LanguageOptions name="JAVA">
       <option name="fileLocation" value="3" />
     </LanguageOptions>

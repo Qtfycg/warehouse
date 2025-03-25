@@ -17,3 +17,11 @@ spring:
       max-pool-prepared-statement-per-connection-size: 20
       filters: stat,wall,log4j
       connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+
+  data:
+    redis:
+      host: '112.124.24.102'
+      port: 6379
+      password: '050406'
+      timeout: 10000
+      database: 1
