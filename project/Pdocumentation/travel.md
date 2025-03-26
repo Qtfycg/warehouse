@@ -12,7 +12,7 @@
 后端            Spring Boot3 + Spring Cloud
 网关            Spring Cloud Gateway
 微服务治理      Nacos、Sentinel、Seata
-数据库          MySQL + Redis + MongoDB
+数据库          MySQL + Redis + MongoDB + Mybatis-Plus
 搜索            Elasticsearch
 消息队列        Pulsar
 支付系统        微信支付 / 支付宝 / Stripe
