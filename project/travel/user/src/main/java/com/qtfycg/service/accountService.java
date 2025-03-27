@@ -9,5 +9,8 @@ import org.springframework.stereotype.Service;
 public interface accountService extends IService<account> {
     account login(String username, String password,String role);
     account register(String username, String password,String role);
+    account revise(String username, String password,String role,String phone,String email);
+    account delete(String username);
+
 
 }

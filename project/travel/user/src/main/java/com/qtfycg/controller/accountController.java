@@ -43,7 +43,7 @@ public class accountController {
         }
     }
 
-    @Operation(summary = "用户注册", description = "用户注册")
+    @Operation(summary = "用户注册")
     @PostMapping("/register/user")
     public String userRegister(@RequestParam("username")String username,@RequestParam("password")String password) {
         account user = accountService.register(username, password,"user");
@@ -53,7 +53,7 @@ public class accountController {
             return "Username already exists";
         }
     }
-    @Operation(summary = "管理员注册", description = "用户注册")
+    @Operation(summary = "管理员注册")
     @PostMapping("/register/admin")
     public String adminRegister(@RequestParam("username")String username,@RequestParam("password")String password) {
         account user = accountService.register(username, password,"admin");
@@ -63,6 +63,17 @@ public class accountController {
             return "Username already exists";
         }
     }
+    @Operation(summary = "用户信息修改")
+    @PostMapping("/revise/user")
+    public String userRevise(){
+        return null;
+    }
+    @PostMapping("/revise/admin")
+    @Operation(summary = "管理员信息修改")
+    public String adminRevise(){
+        return null;
+    }
+
 
 
 }

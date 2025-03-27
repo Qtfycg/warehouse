@@ -4,3 +4,13 @@ server:
 spring:
   application:
     name: gateway
+  cloud:
+    gateway:
+      routes:
+        - id: user-service
+        - uri: lb://user
+          predicates:
+            - path=/api/login/user
+          filters:
+            - stripPrefix=1
+

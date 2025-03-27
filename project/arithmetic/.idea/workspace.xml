@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="928c1449-5413-46cf-a427-038d1660e281" name="更改" comment="" />
+    <list default="true" id="4fd44655-dcae-430c-ac6e-327e00fd67ba" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,23 +18,31 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Qtfycg"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Qtfycg&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:Qtfycg/warehouse.git",
-    "accountId": "24401ad8-b5db-4bbb-b74a-a6399ea8bfcc"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Qtfycg/warehouse.git&quot;,
+    &quot;accountId&quot;: &quot;24401ad8-b5db-4bbb-b74a-a6399ea8bfcc&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -55,10 +63,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
-  <component name="ProjectId" id="2uo2emaBlkiRY6FErR2JLMKWnax" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2uqIcZeqvy9YDQoX72znTd1dCiP" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="2" id="Remove" />
@@ -69,15 +77,77 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Gradle.arithmetic [:com.qtfycg.Main.main()].executor": "Run",
+    "Gradle.arithmetic [:com.qtfycg.removeArrays.main()].executor": "Run",
+    "Gradle.arithmetic [:com.qtfycg.two.main()].executor": "Run",
+    "Gradle.arithmetic [:com.qtfycg.twoSum.main()].executor": "Run",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.qtfycg" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.removeArrays">
+    <configuration name="arrayConcatenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qtfycg.arrayConcatenation" />
+      <module name="arithmetic.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qtfycg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="removeArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qtfycg.removeArrays" />
+      <module name="arithmetic.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qtfycg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="twoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qtfycg.twoSum" />
+      <module name="arithmetic.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qtfycg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.removeArrays" />
+        <item itemvalue="应用程序.arrayConcatenation" />
+        <item itemvalue="应用程序.twoSum" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -95,13 +165,14 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="928c1449-5413-46cf-a427-038d1660e281" name="更改" comment="" />
+      <changelist id="4fd44655-dcae-430c-ac6e-327e00fd67ba" name="更改" comment="" />
       <created>1723733041522</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723733041522</updated>
       <workItem from="1723733042559" duration="652000" />
-      <workItem from="1742900706419" duration="49000" />
+      <workItem from="1742969760142" duration="1473000" />
+      <workItem from="1742971275029" duration="1623000" />
     </task>
     <servers />
   </component>

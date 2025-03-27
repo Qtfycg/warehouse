@@ -39,6 +39,16 @@ public class accountServiceImpl extends ServiceImpl<accountMapper, account> impl
         }
     }
 
+    @Override
+    public account revise(String username, String password, String role, String phone, String email) {
+        return null;
+    }
+
+    @Override
+    public account delete(String username) {
+        return null;
+    }
+
 }
 
 
