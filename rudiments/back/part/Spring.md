@@ -54,10 +54,29 @@
     2.依赖注入(DI)
         1.概念
             1.Spring创建对象的过程中，将对象依赖属性通过配置进行注入
+            2.类有属性，创建对象过程中，向属性设置值
         2.常见实现方式
             1.set注入
+                1.创建类，定义属性，生成属性的set方法
+                2.在xml文件中创建对象时，加上<property name="属性名" value="属性值"></property>
             2.构造注入
-    
+                1.创建类，定义属性，生成属性的无参和有参方法
+                2.在xml文件中创建对象时，加上<constructor-arg  name="属性名" value="属性值"></constructor-arg>或者<constructor-arg  index="属性顺序" value="属性值"></constructor-arg>
+            3.特殊值处理
+                1.常量赋值
+                    1.使用value属性给bean的属性赋值时，会把value属性的值看做常量
+                2.null
+                    1.加上<null></null>
+                3.xml实体
+                    1.特殊符号进行转义
+                4.CDATA节
+                    1.！[CDATA[属性值]]
+                    2.当成字符处理
+            4.特殊类型属性的注入
+                1.对象类型
+                    1.引用外部Bean
+                        1.分别创建对象
+                        2.使用<property name="属性名" ref="Bean的id值"></property>引入外部Bean
 ```
 ###### 2.Spring Boot
 ###### 3.Spring MVC
