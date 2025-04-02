@@ -77,6 +77,92 @@
                     1.引用外部Bean
                         1.分别创建对象
                         2.使用<property name="属性名" ref="Bean的id值"></property>引入外部Bean
+                    2.内部Bean
+                        1.分别创建对象
+                        2.将bean写在property里面
+                    3.级联属性赋值(用的不多)
+                        1.分别创建对象
+                        2.使用<property name="属性名.方法" value="属性值"></property>
+                        3.本质是通过get方法
+                2.数组类型
+                    1.分别创建对象
+                    2.<property name="属性名"><array><value>属性值</value></array></property>（有几个属性值就有几个value标签）
+                3.集合类型
+                    1.List集合
+                        1.分别创建对象
+                        2.<property name="属性名"><list><ref bean="Bean的id值"></ref></list></property>（有几个属性值就有几个ref标签）
+                    2.Map集合
+                        1.分别创建对象
+                        2.<property name="属性名"><map><entry><key>k值</key><ref bean="Bean的id值"></ref></entry></map></property>
+                    3.引用集合类型
+                        1.分别创建对象
+                        2.使用 util:类型 定义(需要引入对应的命名空间)
+                        3.引入定义的util，完成类型注入
+            5.引入外部属性文件
+                1.引入相关依赖
+                2.创建外部属性文件(properties格式)
+                3.创建Spring配置文件，引入属性文件
+                    1.<context:property-placeholder location="外部属性文件位置"></context:property-placeholder>
+                    2.完成对应信息注入
+                    3.<property name="属性名" value="${配置文件里的属性名}"></property>
+        3.bean的作用域
+             1.scope(指定bean的作用域)
+                1.singleton:单实例，每次获取的对象都相同
+                2.prototype:多实例，每次获取的对象都不相同
+                3.request:在一个请求范围类有效
+                4.session:在一个会话范围类有效
+        4.bean的生命周期
+            1.bean对象创建:调用无参构造器
+            2.相关属性注入
+            3.bean后置处理器（初始化之前）
+            4.bean对象初始化（调用指定的初始化方法）
+            5.bean后置处理器（初始化之后，且需要放进ioc容器后才有用）
+            6.bean对象创建成功
+            7.bean对象销毁（调用指定的销毁方法）
+            8.Ioc容器关闭
+        5.FactoryBean
+            1.概念
+                1.Spring提供的一种整合第三方框架的常用机制
+                2.配置此类型的Bean后，获取的对象是getObject()方法的返回值
+                3.帮我们把复杂组件创建的详细过程与繁琐细节都屏蔽起来，只留下最简洁的使用界面
+        6.基于xml自动装配
+            1.利用autowire属性(基于set方法)
+                1.byType：根据类型
+                2.byNmae：根据名字
+        7.基于注解自动装配
+            1.概念
+                1.代码中的一种特殊标记
+                2.在编译、类加载和运行时被读取，执行对应处理
+                3.不改变原代码和逻辑的基础上，嵌入补充信息
+                4.格式:@注解名称(属性名称)
+                5.可以使用在类、属性、方法上
+            2.步骤
+                1.引入依赖
+                2.开启组件扫描
+                    1.概念
+                        1.默认不使用注解装配Bean，因此需要在XML文件中通过context:component-scan元素开启Spring Beans的自动扫描功能
+                        2.会自动从扫描指定的包及其子包下所有的类，若类上有@Component注解，则将该类装配到容器中
+                    2.步骤
+                        1.修改XML文件的命名空间context
+                        2.开启组件扫描的方式
+                            1.开启组件扫描:<context:component-scan base-package="包名"></context:component-scan>
+                            2.指定排除规则:<context:component-scan base-package="包名"><context:exclude-filter type="依据" expression="注解/类型的全类名"></context:exclude-filter></context:component-scan>
+                                1.annotation:根据注解排除
+                                2.assignable:根据类型排除
+                            3.只扫描特定注解:<context:component-scan base-package="包名"><context:include-filter type="annotation" expression="注解的全类名"></context:include-filter></context:component-scan>
+                3.使用注解定义Bean(创建对象)
+                    1.@Component:描述Spring中的Bean，是一个泛化的概念，仅仅表示容器中的一个组件，且可以作用在应用的任何层次
+                    2.@Repository:用于将数据访问层的类标识为Spring中的Bean，与@Component功能类似
+                    3.@Service:用于将业务层的类标识为Spring中的Bean，与@Component功能类似
+                    4.@Controller:用于将控制层的类标识为Spring中的Bean，与@Component功能类似
+                4.属性注入
+                    1.@Autowired:单独使用，默认根据类型装配
+                        1.用处:构造方法、方法、形参、属性、注解
+                        2.required属性
+                            1.true:表示在注入的时候要求被注入的Bean必须是存在的
+                            2.false:注入的Bean存不存在都没关系
+        
+
 ```
 ###### 2.Spring Boot
 ###### 3.Spring MVC
