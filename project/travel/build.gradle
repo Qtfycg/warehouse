@@ -25,6 +25,8 @@ subprojects {
     }
 
     dependencies {
+        /*starter*/
+        implementation 'org.springframework.boot:spring-boot-starter'
         /*mysql*/
         implementation group: 'com.mysql', name: 'mysql-connector-j', version: '9.2.0'
         /*mybatis-plus*/

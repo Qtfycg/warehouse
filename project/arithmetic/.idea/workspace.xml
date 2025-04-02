@@ -63,6 +63,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -75,32 +78,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.arithmetic [:com.qtfycg.removeArrays.main()].executor": "Run",
-    "Gradle.arithmetic [:com.qtfycg.two.main()].executor": "Run",
-    "Gradle.arithmetic [:com.qtfycg.twoSum.main()].executor": "Run",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Gradle.arithmetic [:com.qtfycg.removeArrays.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.arithmetic [:com.qtfycg.two.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.arithmetic [:com.qtfycg.twoSum.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.构建 arithmetic.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.twoSum.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.twoSum.toSum.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;问题&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.35977012&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.qtfycg" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.removeArrays">
+  <component name="RunManager" selected="JUnit.twoSumTest">
     <configuration name="arrayConcatenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qtfycg.arrayConcatenation" />
       <module name="arithmetic.main" />
@@ -127,8 +137,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="twoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qtfycg.twoSum" />
+    <configuration name="twoSumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qtfycg.twoSumTest" />
       <module name="arithmetic.main" />
       <extension name="coverage">
         <pattern>
@@ -140,11 +150,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="twoSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="arithmetic.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qtfycg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qtfycg" />
+      <option name="MAIN_CLASS_NAME" value="com.qtfycg.twoSumTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="twoSumTest.toSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="arithmetic.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qtfycg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qtfycg" />
+      <option name="MAIN_CLASS_NAME" value="com.qtfycg.twoSumTest" />
+      <option name="METHOD_NAME" value="toSum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.twoSumTest" />
+        <item itemvalue="JUnit.twoSumTest.toSum" />
         <item itemvalue="应用程序.removeArrays" />
         <item itemvalue="应用程序.arrayConcatenation" />
-        <item itemvalue="应用程序.twoSum" />
+        <item itemvalue="应用程序.twoSumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +216,9 @@
       <workItem from="1723733042559" duration="652000" />
       <workItem from="1742969760142" duration="1473000" />
       <workItem from="1742971275029" duration="1623000" />
+      <workItem from="1743218374138" duration="677000" />
+      <workItem from="1743319164876" duration="1445000" />
+      <workItem from="1743321134269" duration="6000" />
     </task>
     <servers />
   </component>
@@ -181,6 +227,17 @@
   </component>
   <component name="UpdateCopyrightCheckinHandler">
     <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myShow1" value="true" />

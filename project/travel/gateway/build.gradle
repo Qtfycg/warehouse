@@ -4,15 +4,6 @@ plugins {
 }
 
 dependencies {
-    /*gateway*/
-    implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-gateway', version: '4.2.1'
-    /*security*/
-    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: '3.4.4'
-    /*bootstrap*/
-    implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-bootstrap', version: '4.2.1'
-    /*webflux*/
-    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-webflux', version: '3.4.4'
-    /*jjwt*/
-    implementation group: 'com.10duke.client.jwt', name: 'jjwt', version: '1.1.0'
+
 
 }

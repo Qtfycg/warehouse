@@ -8,6 +8,5 @@ package com.qtfycg;
 然后返回 nums 中唯一元素的个数。
 */
 public class removeArrays {
-    public static void main(String[] args) {
-    }
+
 }
