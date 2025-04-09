@@ -226,8 +226,15 @@
                             5.环绕通知:使用try···catch···finally结构围绕整个被代理的目标方法
                                 1.@Around(value="execution(权限修饰符 方法返回值 方法所在类的全路径 方法名(参数列表))")
                                 2.value：切入点表达式
+                            6.复用切入点表达式
+                                1.新建一个方法
+                                2.使用@Pointcut(value="切入点表达式")
+                                3.将对应的表达式改成方法名称
                 3.切面
                     1.封装通知方法的类
+                    2.优先级
+                        1.优先级高的切面：外面，使用@Order(较小的数)
+                        2.优先级低的切面：里面，使用@Order(较大的数)
                 4.目标
                     1.被代理的目标对象
                 5.代理
@@ -242,10 +249,105 @@
             3..作用
                 1.简化代码
                 2.代码增强
-            4.具体步骤
-                1.
 ```
 ###### 2.Spring Boot
 ###### 3.Spring MVC
+```
+1.简介80-130----98
+    1.Spring的web模块，用来开发web应用
+    2.最终作为B/S、C/S模式下的Server端
+    3.核心就是处理HTTP请求响应
+2.开发模式
+    1.前后端不分离
+    2.前后端分离
+        1.注解
+            1.@RequestMapping(路径映射)
+                1.允许通配符(精确匹配优先)
+                    1.*:匹配任意多个字符
+                    2.**:匹配任意多层路径
+                    3.？:匹配任意单个字符
+                    4.精确路径全局唯一
+                2.请求限定
+                    1.method:请求方式
+                        1.get、head、post、put
+                        2.patch、delete、options、trace
+                    2.params:请求参数
+                    3.headers:请求头
+                    4.consumes:请求内容类型
+                    5.produces:响应内容类型
+                3.请求参数处理
+                    1.普通处理(同一个变量名获取)
+                        1.在处理方法加上对应的形参
+                        2.没有携带参数时，包装类型自动封装为null，基本类型封装为默认值
+                    2.使用@RequestParam注解(在1的基础上)
+                        1.参数必须携带
+                        2.required = false:非必须携带
+                        3.defaultValue:默认值
+                    3.使用POJO、统一封装
+                        1.请求参数放在请求体，也可以使用@RequestParam注解或同一个变量名获取
+                        2.将形参改成对应的pojo
+                        3.请求参数没带，封装为null
+                        4.POJO的所有属性值都来自于请求参数
+                    4.使用@RequestHeader获取请求头
+                        1.形参为请求头中对应的属性
+                    5.使用@CookieValue获取Cookie数据
+                        1. 形参为请求头中对应的key值
+                    6.使用POJO级联封装复杂属性
+                        1.在对应的类中使用内部类，创建复杂属性
+                    7.使用@RequestBody封装JSON
+                        1.作用:获取请求体json数据，自动转换成对应的参数
+                    8.文件上传
+                        1.MultipartFile专门用来封装文件的请求参数
+                        2.同时使用@RequestParam注解
+                        3.调用对应的方法接收并保存图片
+                        4.图片大小有限制1mb以内
+                    9.获取整个请求(HttpEntity)
+                        1.封装请求头与请求体
+                        2.<>里为对应类型--泛型(可以自动转化)
+                    10.传入原生API
+                        1.将原生API作为请求参数
+                4.响应参数处理
+                    1.返回Json数据
+                        1.返回对象，Spring MVC会自动转换成json
+                        2.定死的写对象，定不死的写Map
+                    2.文件下载
+                        1.使用ResponseEntity
+                        2.枚举类为字节流
+                        3.contentType:文件类型
+                        4.contentLength:文件大小
+                        5.header:修改响应头
+                            1.Content-Disposition:内容处理方式
+                            2.attachment;filename:文件下载后名称
+                            3.URLEncode.encode:文件编码
+                            4.不要一口气读取所有文件，使用InputStreamResource转换
+                    3.页面跳转
+                    4.页面取值
+            2.@RestController
+                1.既能处理请求、又能返回数据
+        2.RESTful
+            1.概念
+                1.表现层状态转移，是一种软件架构风格
+                2.使用资源名作为URI，使用HTTP的请求方式表示对资源的操作
+                3.满足REST风格的系统，称为是RESTful系统
+            2.返回json参数
+                1.code:业务是否成功(与前端商定)
+                2.msg:错误提示信息
+                3.data:返回给前端的数据
+            3.跨域
+                1.使用@CrossOrigin注解
+                2.会发送俩次请求
+                    1.options:预检请求，询问服务器是否允许当前域名进行跨域访问
+                    2.真正的请求
+            4.@PathVariable
+                1.路径变量
+        3.拦截器
+        4.异常处理
+        5.数据校验
+  
+
+
+
+```
+                    
 ###### 4.Spring Security
 ###### 5.Spring Cloud
