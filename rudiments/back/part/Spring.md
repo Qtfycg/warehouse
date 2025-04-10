@@ -341,12 +341,52 @@
             4.@PathVariable
                 1.路径变量
         3.拦截器
+            1.概念
+                1.允许在请求被目标方法处理的前后进行拦截，执行一些额外操作
+            2.步骤
+                1.实现HandlerInterceptor接口的组件即可成为拦截器
+                2.创建WebMvcConfigurer组件，并配置拦截器的拦截路径
+            3.执行顺序
+                1.preHandle顺序执行
+                2.postHandle倒序执行
+                3.afterCompletion倒序执行
+                4.preHandle执行成功才会执行afterCompletion
+                5.postHandle失败不影响afterCompletion
+            4.与过滤器的区别
+                1.拦截器是Spring定义的，而过滤器则是Servlet规范
+                2.拦截器拦截SpringMVC能处理的请求，过滤器则拦截web的所有请求
         4.异常处理
+            1.概念
+                1.编程式异常处理
+                    1.try-catch
+                    2.throw
+                    3.exception
+                2.声明式异常处理
+                    1.提供了@ExceptionHandle、@ControllerAdvice等便携的声明式注解来进行快速的异常处理
+            2.相关注解
+                1.@ExceptionHandle
+                    1.精确优先
+                    2.只负责本类中的异常
+                2.@ControllerAdvice
+                    1.负责全局异常
+                    2.本类、精确优先
+                    3.本类与全局都不能处理，Spring MVC提供默认的自适应处理机制
+            3.最终方式
         5.数据校验
-  
-
-
-
+            1.概念
+            2.相关注解
+                1.JSR303
+                    1.概念
+                        1.Java为Bean数据合法性校验提供的标准框架
+                        2.包含在JavaEE.0标准中
+                        3.通过在Bean属性上标注相关注解实现
+                    2.步骤
+                        1.导入校验包
+                        2.编写校验注解
+                        3.开启校验注解
+                        4. 使用异常全局处理器处理校验异常
+                2.@Valid
+                3.@BindingResult
 ```
                     
 ###### 4.Spring Security
