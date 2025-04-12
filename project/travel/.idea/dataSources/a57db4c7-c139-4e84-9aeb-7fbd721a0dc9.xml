@@ -1076,7 +1076,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     </schema>
     <schema id="293" parent="1" name="travel">
       <Current>1</Current>
-      <LastIntrospectionLocalTimestamp>2025-03-24.02:36:37</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2025-04-12.03:10:05</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <user id="294" parent="1" name="debian-sys-maint">
@@ -1099,441 +1099,411 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Plugin>caching_sha2_password</Plugin>
     </user>
     <user id="298" parent="1" name="root"/>
-    <table id="299" parent="293" name="account">
-      <Comment>用户表</Comment>
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </table>
-    <table id="300" parent="293" name="inventory">
+    <table id="299" parent="293" name="inventory">
       <Comment>库存管理表</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="301" parent="293" name="order">
+    <table id="300" parent="293" name="order">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="302" parent="293" name="payment">
+    <table id="301" parent="293" name="payment">
       <Comment>支付表</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="303" parent="293" name="review">
+    <table id="302" parent="293" name="review">
       <Comment>评价表</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="304" parent="293" name="tourism">
+    <table id="303" parent="293" name="tourism">
       <Comment>旅游产品表</Comment>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
+    <table id="304" parent="293" name="user">
+      <Comment>用户表</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
     <column id="305" parent="299" name="id">
-      <AutoIncrement>10</AutoIncrement>
-      <Comment>用户ID</Comment>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StoredType>int(4) unsigned zerofill|0s</StoredType>
-    </column>
-    <column id="306" parent="299" name="name">
-      <Comment>用户名</Comment>
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-      <StoredType>varchar(50)|0s</StoredType>
-    </column>
-    <column id="307" parent="299" name="password">
-      <Comment>密码（加密存储）</Comment>
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-      <StoredType>varchar(255)|0s</StoredType>
-    </column>
-    <column id="308" parent="299" name="phone">
-      <Comment>手机号</Comment>
-      <Position>4</Position>
-      <StoredType>varchar(20)|0s</StoredType>
-    </column>
-    <column id="309" parent="299" name="email">
-      <Comment>邮箱</Comment>
-      <Position>5</Position>
-      <StoredType>varchar(100)|0s</StoredType>
-    </column>
-    <column id="310" parent="299" name="role">
-      <Comment>用户角色</Comment>
-      <DefaultExpression>&apos;user&apos;</DefaultExpression>
-      <Position>6</Position>
-      <StoredType>enum(&apos;user&apos;, &apos;admin&apos;)|0e</StoredType>
-    </column>
-    <column id="311" parent="299" name="status">
-      <Comment>用户状态（0-禁用，1-正常）</Comment>
-      <DefaultExpression>1</DefaultExpression>
-      <Position>7</Position>
-      <StoredType>tinyint|0s</StoredType>
-    </column>
-    <column id="312" parent="299" name="create_time">
-      <Comment>注册时间</Comment>
-      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
-      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
-      <Position>8</Position>
-      <StoredType>datetime|0s</StoredType>
-    </column>
-    <column id="313" parent="299" name="update_time">
-      <Comment>最后更新时间</Comment>
-      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
-      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
-      <Position>9</Position>
-      <StoredType>datetime|0s</StoredType>
-    </column>
-    <index id="314" parent="299" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <index id="315" parent="299" name="username">
-      <ColNames>name</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <index id="316" parent="299" name="phone">
-      <ColNames>phone</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <index id="317" parent="299" name="email">
-      <ColNames>email</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="318" parent="299" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <key id="319" parent="299" name="username">
-      <UnderlyingIndexName>username</UnderlyingIndexName>
-    </key>
-    <key id="320" parent="299" name="phone">
-      <UnderlyingIndexName>phone</UnderlyingIndexName>
-    </key>
-    <key id="321" parent="299" name="email">
-      <UnderlyingIndexName>email</UnderlyingIndexName>
-    </key>
-    <column id="322" parent="300" name="id">
       <AutoIncrement>1</AutoIncrement>
       <Comment>库存ID</Comment>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="323" parent="300" name="tourism_id">
+    <column id="306" parent="299" name="tourism_id">
       <Comment>旅游产品ID</Comment>
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="324" parent="300" name="total_stock">
+    <column id="307" parent="299" name="total_stock">
       <Comment>总库存量</Comment>
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="325" parent="300" name="available_stock">
+    <column id="308" parent="299" name="available_stock">
       <Comment>可用库存</Comment>
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="326" parent="300" name="locked_stock">
+    <column id="309" parent="299" name="locked_stock">
       <Comment>锁定库存（下单未支付）</Comment>
       <NotNull>1</NotNull>
       <Position>5</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="327" parent="300" name="update_time">
+    <column id="310" parent="299" name="update_time">
       <Comment>库存更新时间</Comment>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
       <Position>6</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <foreign-key id="328" parent="300" name="inventory_ibfk_1">
+    <foreign-key id="311" parent="299" name="inventory_ibfk_1">
       <ColNames>tourism_id</ColNames>
       <RefColNames>id</RefColNames>
       <RefTableName>tourism</RefTableName>
     </foreign-key>
-    <index id="329" parent="300" name="PRIMARY">
+    <index id="312" parent="299" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="330" parent="300" name="tourism_id">
+    <index id="313" parent="299" name="tourism_id">
       <ColNames>tourism_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="331" parent="300" name="PRIMARY">
+    <key id="314" parent="299" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="332" parent="301" name="id">
+    <column id="315" parent="300" name="id">
       <AutoIncrement>1</AutoIncrement>
       <Comment>订单ID</Comment>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>int(10) unsigned zerofill|0s</StoredType>
     </column>
-    <column id="333" parent="301" name="order_id">
+    <column id="316" parent="300" name="order_id">
       <Comment>订单编号</Comment>
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StoredType>varchar(50)|0s</StoredType>
     </column>
-    <column id="334" parent="301" name="accound_id">
+    <column id="317" parent="300" name="accound_id">
       <Comment>用户ID</Comment>
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StoredType>int(10) unsigned zerofill|0s</StoredType>
     </column>
-    <column id="335" parent="301" name="tourism_id">
+    <column id="318" parent="300" name="tourism_id">
       <Comment>旅游产品ID</Comment>
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="336" parent="301" name="total_price">
+    <column id="319" parent="300" name="total_price">
       <Comment>订单总金额</Comment>
       <NotNull>1</NotNull>
       <Position>5</Position>
       <StoredType>decimal(10,2 digit)|0s</StoredType>
     </column>
-    <column id="337" parent="301" name="status">
+    <column id="320" parent="300" name="status">
       <Comment>订单状态（0-待支付，1-已支付，2-已取消</Comment>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>6</Position>
       <StoredType>tinyint(3) unsigned zerofill|0s</StoredType>
     </column>
-    <column id="338" parent="301" name="create_time">
+    <column id="321" parent="300" name="create_time">
       <Comment>下单时间</Comment>
       <NotNull>1</NotNull>
       <Position>7</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <column id="339" parent="301" name="pay_time">
+    <column id="322" parent="300" name="pay_time">
       <Comment>支付时间</Comment>
       <Position>8</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <column id="340" parent="301" name="cancel_time">
+    <column id="323" parent="300" name="cancel_time">
       <Comment>取消时间</Comment>
       <Position>9</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <index id="341" parent="301" name="PRIMARY">
+    <index id="324" parent="300" name="PRIMARY">
       <ColNames>id
 accound_id
 tourism_id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="342" parent="301" name="PRIMARY">
+    <key id="325" parent="300" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="343" parent="302" name="id">
+    <column id="326" parent="301" name="id">
       <AutoIncrement>1</AutoIncrement>
       <Comment>支付ID</Comment>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="344" parent="302" name="order_id">
+    <column id="327" parent="301" name="order_id">
       <Comment>订单ID</Comment>
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="345" parent="302" name="user_id">
+    <column id="328" parent="301" name="user_id">
       <Comment>用户ID</Comment>
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="346" parent="302" name="amount">
+    <column id="329" parent="301" name="amount">
       <Comment>支付金额</Comment>
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StoredType>decimal(10,2 digit)|0s</StoredType>
     </column>
-    <column id="347" parent="302" name="payment_method">
+    <column id="330" parent="301" name="payment_method">
       <Comment>支付方式（支付宝、微信）</Comment>
       <NotNull>1</NotNull>
       <Position>5</Position>
       <StoredType>varchar(50)|0s</StoredType>
     </column>
-    <column id="348" parent="302" name="status">
+    <column id="331" parent="301" name="status">
       <Comment>支付状态（0-未支付，1-支付成功，2-支付失败）</Comment>
       <DefaultExpression>0</DefaultExpression>
       <Position>6</Position>
       <StoredType>tinyint|0s</StoredType>
     </column>
-    <column id="349" parent="302" name="transaction_no">
+    <column id="332" parent="301" name="transaction_no">
       <Comment>第三方支付流水号</Comment>
       <Position>7</Position>
       <StoredType>varchar(50)|0s</StoredType>
     </column>
-    <column id="350" parent="302" name="create_time">
+    <column id="333" parent="301" name="create_time">
       <Comment>支付请求时间</Comment>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <Position>8</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <column id="351" parent="302" name="update_time">
+    <column id="334" parent="301" name="update_time">
       <Comment>更新时间</Comment>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
       <Position>9</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <index id="352" parent="302" name="PRIMARY">
+    <index id="335" parent="301" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="353" parent="302" name="PRIMARY">
+    <key id="336" parent="301" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="354" parent="303" name="id">
+    <column id="337" parent="302" name="id">
       <AutoIncrement>1</AutoIncrement>
       <Comment>评价ID</Comment>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="355" parent="303" name="user_id">
+    <column id="338" parent="302" name="user_id">
       <Comment>用户ID</Comment>
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="356" parent="303" name="tourism_id">
+    <column id="339" parent="302" name="tourism_id">
       <Comment>旅游产品ID</Comment>
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="357" parent="303" name="rating">
+    <column id="340" parent="302" name="rating">
       <Comment>评分（1~5）</Comment>
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StoredType>decimal(3,2 digit)|0s</StoredType>
     </column>
-    <column id="358" parent="303" name="comment">
+    <column id="341" parent="302" name="comment">
       <Comment>用户评价</Comment>
       <Position>5</Position>
       <StoredType>text|0s</StoredType>
     </column>
-    <column id="359" parent="303" name="create_time">
+    <column id="342" parent="302" name="create_time">
       <Comment>评价时间</Comment>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <Position>6</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <index id="360" parent="303" name="PRIMARY">
+    <index id="343" parent="302" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="361" parent="303" name="PRIMARY">
+    <key id="344" parent="302" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="362" parent="304" name="id">
+    <column id="345" parent="303" name="id">
       <AutoIncrement>1</AutoIncrement>
       <Comment>景点ID</Comment>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="363" parent="304" name="name">
+    <column id="346" parent="303" name="name">
       <Comment>景点名称</Comment>
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StoredType>varchar(100)|0s</StoredType>
     </column>
-    <column id="364" parent="304" name="location">
+    <column id="347" parent="303" name="location">
       <Comment>详细地址</Comment>
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="365" parent="304" name="city">
+    <column id="348" parent="303" name="city">
       <Comment>所属城市</Comment>
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StoredType>varchar(50)|0s</StoredType>
     </column>
-    <column id="366" parent="304" name="price">
+    <column id="349" parent="303" name="price">
       <Comment>门票价格</Comment>
       <NotNull>1</NotNull>
       <Position>5</Position>
       <StoredType>decimal(10,2 digit)|0s</StoredType>
     </column>
-    <column id="367" parent="304" name="stock">
+    <column id="350" parent="303" name="stock">
       <Comment>可售票数</Comment>
       <NotNull>1</NotNull>
       <Position>6</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="368" parent="304" name="rating">
+    <column id="351" parent="303" name="rating">
       <Comment>评分（1~5）</Comment>
       <DefaultExpression>0.00</DefaultExpression>
       <Position>7</Position>
       <StoredType>decimal(3,2 digit)|0s</StoredType>
     </column>
-    <column id="369" parent="304" name="description">
+    <column id="352" parent="303" name="description">
       <Comment>景点描述</Comment>
       <Position>8</Position>
       <StoredType>text|0s</StoredType>
     </column>
-    <column id="370" parent="304" name="category_id">
+    <column id="353" parent="303" name="category_id">
       <Comment>景点分类</Comment>
       <Position>9</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="371" parent="304" name="image_url">
+    <column id="354" parent="303" name="image_url">
       <Comment>景点图片URL</Comment>
       <Position>10</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="372" parent="304" name="status">
+    <column id="355" parent="303" name="status">
       <Comment>状态（0-下架，1-上架）</Comment>
       <DefaultExpression>1</DefaultExpression>
       <Position>11</Position>
       <StoredType>tinyint|0s</StoredType>
     </column>
-    <column id="373" parent="304" name="create_time">
+    <column id="356" parent="303" name="create_time">
       <Comment>创建时间</Comment>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <Position>12</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <column id="374" parent="304" name="update_time">
+    <column id="357" parent="303" name="update_time">
       <Comment>最后更新时间</Comment>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
       <Position>13</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <index id="375" parent="304" name="PRIMARY">
+    <index id="358" parent="303" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="376" parent="304" name="PRIMARY">
+    <key id="359" parent="303" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="360" parent="304" name="id">
+      <AutoIncrement>3</AutoIncrement>
+      <Comment>用户ID</Comment>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>int(4) unsigned zerofill|0s</StoredType>
+    </column>
+    <column id="361" parent="304" name="name">
+      <Comment>用户名</Comment>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>varchar(50)|0s</StoredType>
+    </column>
+    <column id="362" parent="304" name="password">
+      <Comment>密码（加密存储）</Comment>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="363" parent="304" name="phone">
+      <Comment>手机号</Comment>
+      <Position>4</Position>
+      <StoredType>varchar(20)|0s</StoredType>
+    </column>
+    <column id="364" parent="304" name="email">
+      <Comment>邮箱</Comment>
+      <Position>5</Position>
+      <StoredType>varchar(100)|0s</StoredType>
+    </column>
+    <column id="365" parent="304" name="status">
+      <Comment>用户状态（0-禁用，1-正常）</Comment>
+      <DefaultExpression>1</DefaultExpression>
+      <Position>6</Position>
+      <StoredType>tinyint|0s</StoredType>
+    </column>
+    <column id="366" parent="304" name="create_time">
+      <Comment>注册时间</Comment>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+      <Position>7</Position>
+      <StoredType>datetime|0s</StoredType>
+    </column>
+    <column id="367" parent="304" name="update_time">
+      <Comment>最后更新时间</Comment>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+      <Position>8</Position>
+      <StoredType>datetime|0s</StoredType>
+    </column>
+    <index id="368" parent="304" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="369" parent="304" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
