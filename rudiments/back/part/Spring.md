@@ -253,7 +253,7 @@
 ###### 2.Spring Boot
 ###### 3.Spring MVC
 ```
-1.简介80-130----98
+1.简介
     1.Spring的web模块，用来开发web应用
     2.最终作为B/S、C/S模式下的Server端
     3.核心就是处理HTTP请求响应
@@ -388,6 +388,13 @@
                 2.@Valid
                 3.@BindingResult
 ```
-                    
 ###### 4.Spring Security
 ###### 5.Spring Cloud
+```
+1.概念
+2.Nacos
+3.Openfeign
+4.Sentinel
+5.Gateway
+6.Seata
+```
