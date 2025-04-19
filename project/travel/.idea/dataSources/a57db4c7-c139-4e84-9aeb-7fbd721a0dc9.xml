@@ -1075,8 +1075,10 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="293" parent="1" name="travel">
+      <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
       <Current>1</Current>
-      <LastIntrospectionLocalTimestamp>2025-04-12.03:10:05</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLevel>3</LastIntrospectionLevel>
+      <LastIntrospectionLocalTimestamp>2025-04-18.11:25:31</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <user id="294" parent="1" name="debian-sys-maint">
@@ -1101,30 +1103,36 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <user id="298" parent="1" name="root"/>
     <table id="299" parent="293" name="inventory">
       <Comment>库存管理表</Comment>
+      <DetailsLevel>3</DetailsLevel>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
     <table id="300" parent="293" name="order">
+      <DetailsLevel>3</DetailsLevel>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
     <table id="301" parent="293" name="payment">
       <Comment>支付表</Comment>
+      <DetailsLevel>3</DetailsLevel>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
     <table id="302" parent="293" name="review">
       <Comment>评价表</Comment>
+      <DetailsLevel>3</DetailsLevel>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
     <table id="303" parent="293" name="tourism">
       <Comment>旅游产品表</Comment>
+      <DetailsLevel>3</DetailsLevel>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
     <table id="304" parent="293" name="user">
       <Comment>用户表</Comment>
+      <DetailsLevel>3</DetailsLevel>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
@@ -1450,7 +1458,7 @@ tourism_id</ColNames>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="360" parent="304" name="id">
-      <AutoIncrement>3</AutoIncrement>
+      <AutoIncrement>2</AutoIncrement>
       <Comment>用户ID</Comment>
       <NotNull>1</NotNull>
       <Position>1</Position>
