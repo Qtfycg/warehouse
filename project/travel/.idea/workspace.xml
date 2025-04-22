@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a938d6b-ae1c-4736-b4f5-3f72ad1e561e" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a57db4c7-c139-4e84-9aeb-7fbd721a0dc9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a57db4c7-c139-4e84-9aeb-7fbd721a0dc9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../rudiments/back/part/数据库.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../rudiments/back/part/数据库.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +104,9 @@
     "Gradle.travel:user [clean].executor": "Run",
     "Gradle.构建 travel.executor": "Run",
     "Notification.DisplayName-DoNotAsk-Database detector": "数据库检测器",
+    "Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found": "找到数据库连接形参",
     "Notification.DoNotAsk-Database detector": "true",
+    "Notification.DoNotAsk-DatabaseConfigFileWatcher.found": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -299,6 +297,7 @@
       <workItem from="1744617562222" duration="10000" />
       <workItem from="1744863025418" duration="724000" />
       <workItem from="1744975157664" duration="513000" />
+      <workItem from="1745054710907" duration="33000" />
     </task>
     <servers />
   </component>
