@@ -1,8 +1,0 @@
-rootProject.name = 'coding'
-
-include 'common'
-include 'domain'
-include 'application'
-include 'infrastructure'
-include 'interface'
-include 'start'

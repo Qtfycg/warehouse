@@ -1,0 +1,13 @@
+rootProject.name = 'travel'
+
+include 'common'
+include 'gateway'
+include 'auth'
+include 'user'
+include 'product'
+include 'cart'
+include 'quota'
+include 'coupon'
+include 'search'
+include 'third-party'
+include 'order'
