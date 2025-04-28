@@ -15,8 +15,8 @@ public class R {
 
     public static R ok() {
         R r = new R();
-        r.setCode(ResultCodeEnum.SUCCESS.getCode());
-        r.setMessage(ResultCodeEnum.SUCCESS.getMessage());
+        r.setCode(ResultCodeEnum.User_Login_SUCCESS.getCode());
+        r.setMessage(ResultCodeEnum.User_Login_SUCCESS.getMessage());
         return r;
     }
 
