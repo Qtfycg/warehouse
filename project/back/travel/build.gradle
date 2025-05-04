@@ -22,8 +22,6 @@ subprojects {
         targetCompatibility = JavaVersion.VERSION_21
     }
     dependencies{
-        /*starter*/
-        implementation group: 'org.springframework.boot', name: 'spring-boot-starter', version: '3.4.5'
         /*lombok*/
         compileOnly 'org.projectlombok:lombok:1.18.38'
         annotationProcessor 'org.projectlombok:lombok:1.18.38'
@@ -42,5 +40,6 @@ subprojects {
 
     tasks.withType(JavaCompile).configureEach {
         options.encoding = 'UTF-8'
+        options.compilerArgs << '-parameters'
     }
 }

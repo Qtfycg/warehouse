@@ -1,5 +1,9 @@
 dependencies {
+    /*starter*/
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter', version: '3.4.5'
+    /*common*/
     implementation project(':common')
+    /*actuator*/
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
 
 }

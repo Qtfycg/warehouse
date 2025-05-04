@@ -1,4 +1,4 @@
-package com.qtfycg.common.utils;
+package com.qtfycg.common.utils.R;
 
 import lombok.Getter;
 
@@ -6,9 +6,11 @@ public enum ResultCodeEnum {
     /*
     * user
     * */
-    User_Login_SUCCESS(200, "用户登录成功"),
+    User_SUCCESS(200, "成功"),
+    User_FAIL(300, "失败"),
 
-    FAIL(500, "失败"),
+
+
     VALIDATE_ERROR(400, "参数校验失败"),
     UNAUTHORIZED(401, "未登录"),
     FORBIDDEN(403, "没有权限"),

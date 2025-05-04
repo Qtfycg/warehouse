@@ -3,3 +3,6 @@ spring:
     name: common
 server:
   port: 8080
+jwt:
+  secret: qtfycg
+  expire: 3600
