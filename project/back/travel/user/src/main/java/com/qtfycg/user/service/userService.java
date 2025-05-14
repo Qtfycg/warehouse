@@ -2,23 +2,25 @@ package com.qtfycg.user.service;
 
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.qtfycg.user.Vo.loginVo;
+import com.qtfycg.user.Vo.registerVo;
+import com.qtfycg.user.Vo.updateVo;
 import com.qtfycg.user.entity.user;
-
 
 public interface userService extends IService<user> {
 
     /*
      * 用户登录（根据手机号和密码登录）
      * */
-    user login(String tel, String password);
+    user login(loginVo login);
     /*
     * 用户注册
     * */
-    boolean register(user user);
+    boolean register(registerVo register);
     /*
     * 用户信息修改
     * */
-    boolean updateUser(user user);
+    boolean updateUser(updateVo update);
     /*
     * 获取用户信息
     * */

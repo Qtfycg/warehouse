@@ -1,3 +1,4 @@
 dependencies {
-
+    /*gateway*/
+    implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-gateway', version: '4.2.2'
 }

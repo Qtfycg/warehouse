@@ -1,5 +1,8 @@
 spring:
+  application:
+    name: common
   datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
     druid:
       initial-size: 5
@@ -26,4 +29,5 @@ spring:
           enabled: true
         slf4j:
           enabled: true
-    type: com.alibaba.druid.pool.DruidDataSource
+
+

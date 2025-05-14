@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qtfycg.product.mapper.productMapper">
+
+    <resultMap id="BaseResultMap" type="com.qtfycg.product.entity.product">
+            <id property="id" column="id" />
+            <result property="title" column="title" />
+            <result property="destination" column="destination" />
+            <result property="price" column="price" />
+            <result property="days" column="days" />
+            <result property="description" column="description" />
+            <result property="type" column="type" />
+            <result property="status" column="status" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id, title, destination, price, days, description, type, status
+    </sql>
+</mapper>

@@ -1,0 +1,3 @@
+E:/code/warehouse/warehouse/project/back/arithmetic/cmake-build-debug/CMakeFiles/arithmetic.dir
+E:/code/warehouse/warehouse/project/back/arithmetic/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/code/warehouse/warehouse/project/back/arithmetic/cmake-build-debug/CMakeFiles/rebuild_cache.dir

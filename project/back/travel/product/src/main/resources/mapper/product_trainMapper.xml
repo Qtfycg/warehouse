@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qtfycg.product.mapper.product_trainMapper">
+
+    <resultMap id="BaseResultMap" type="com.qtfycg.product.entity.product_train">
+            <id property="id" column="id" />
+            <result property="trainNo" column="trainNo" />
+            <result property="departureStation" column="departureStation" />
+            <result property="arrivalStation" column="arrivalStation" />
+            <result property="departureTime" column="departureTime" />
+            <result property="arrivalTime" column="arrivalTime" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,train_no,departure_station,arrival_station,departure_time,arrival_time
+    </sql>
+</mapper>
