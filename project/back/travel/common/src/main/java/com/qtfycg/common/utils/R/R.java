@@ -15,15 +15,15 @@ public class R {
 
     public static R ok() {
         R r = new R();
-        r.setCode(ResultCodeEnum.User_SUCCESS.getCode());
-        r.setMessage(ResultCodeEnum.User_SUCCESS.getMessage());
+        r.setCode(ResultCodeEnum.SUCCESS.getCode());
+        r.setMessage(ResultCodeEnum.SUCCESS.getMessage());
         return r;
     }
 
     public static R error() {
         R r = new R();
-        r.setCode(ResultCodeEnum.User_FAIL.getCode());
-        r.setMessage(ResultCodeEnum.User_FAIL.getMessage());
+        r.setCode(ResultCodeEnum.FAIL.getCode());
+        r.setMessage(ResultCodeEnum.FAIL.getMessage());
         return r;
     }
 

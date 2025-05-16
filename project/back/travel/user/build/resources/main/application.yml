@@ -1,0 +1,19 @@
+
+spring:
+  application:
+    name: user
+  config:
+    import: optional:classpath:application-datasource.yml
+  data:
+    redis:
+      host: '112.124.24.102'
+      port: 6379
+      password: '050406'
+      database: 1
+  datasource:
+    url: jdbc:mysql://localhost:3306/travel
+    username: root
+    password: '050416'
+server:
+  port: 8080
+

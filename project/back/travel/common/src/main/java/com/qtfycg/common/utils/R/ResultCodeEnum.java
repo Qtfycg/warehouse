@@ -3,11 +3,9 @@ package com.qtfycg.common.utils.R;
 import lombok.Getter;
 
 public enum ResultCodeEnum {
-    /*
-    * user
-    * */
-    User_SUCCESS(200, "成功"),
-    User_FAIL(300, "失败"),
+    SUCCESS(200, "成功"),
+    FAIL(300, "失败"),
+
 
 
 

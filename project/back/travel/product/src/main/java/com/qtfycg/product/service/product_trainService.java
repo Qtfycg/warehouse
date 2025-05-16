@@ -7,4 +7,5 @@ import com.qtfycg.product.entity.product_train;
 
 public interface product_trainService extends IService<product_train> {
 
+
 }

@@ -32,11 +32,5 @@ spring:
                 maxAge: 3600
 server:
   port: 80
-travel:
-  auth:
-    white-paths:
-      - /api/user/login
-      - /api/user/register
-
 
 
