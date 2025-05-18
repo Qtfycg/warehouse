@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Welcome to TravelGo!</h1>
+    <h1>Welcome to Travel!</h1>
   </div>
 </template>
 
