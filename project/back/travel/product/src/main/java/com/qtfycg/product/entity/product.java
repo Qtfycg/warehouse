@@ -19,13 +19,9 @@ public class product {
     private String coverUrl;
     private BigDecimal price;
     private BigDecimal originalPrice;
-    private Integer days;
     private String description;
     private String detailContent;
     private Integer type;
     private Integer status;
-    private Integer sort;
-    private long viewCount;
-    private long salesCount;
 
 }

@@ -8,5 +8,6 @@ import com.qtfycg.product.entity.product;
 
 public interface productService extends IService<product> {
     boolean add(saveProduct saveProduct);
+    saveProduct getDetail(saveProduct saveProduct);
 
 }

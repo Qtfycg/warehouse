@@ -34,4 +34,17 @@ public class product {
         }
         return R.error().message("商品已存在，添加失败");
     }
+
+    /*
+    * 产品详情
+    * */
+    @RequestMapping("/detail")
+    public R getDetail(@RequestBody saveProduct saveProduct) {
+        // 调用service层的获取商品详情方法
+        saveProduct product = productService.getDetail(saveProduct);
+        if (product != null) {
+            return R.ok().message("获取商品详情成功").data("product", product);
+        }
+        return R.error().message("获取商品详情失败");
+    }
 }

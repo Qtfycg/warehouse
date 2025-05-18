@@ -19,7 +19,4 @@ public class product_hotel {
 
     private String roomType;
 
-    private Long checkInTime;
-
-    private Long checkOutTime;
 }
