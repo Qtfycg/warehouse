@@ -1,5 +1,6 @@
 package com.qtfycg.common.utils.mybatis;
 
+<<<<<<< HEAD
 import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.inner.PaginationInnerInterceptor;
 import org.springframework.context.annotation.Bean;
@@ -14,4 +15,7 @@ public class MybatisPlusConfig {
         interceptor.addInnerInterceptor(new PaginationInnerInterceptor());
         return interceptor;
     }
+=======
+public class MybatisPlusConfig {
+>>>>>>> 4c369a66d2cfc78b54582431ebbcc3bf0a874fb4
 }
