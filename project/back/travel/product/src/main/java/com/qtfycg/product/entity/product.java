@@ -11,7 +11,7 @@ import java.math.BigDecimal;
 @TableName("product")
 public class product {
     @TableId(type = IdType.AUTO)
-    private long id;
+    private Long id;
     private String title;
     private String subTitle;
     private String destination;

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.cloud:spring-cloud-gateway-server:4.2.2" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.springframework.cloud" artifactId="spring-cloud-gateway-server" version="4.2.2" baseVersion="4.2.2" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-gateway-server/4.2.2/922154f71b73a0fea0978038dcbe68ee1648f0da/spring-cloud-gateway-server-4.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

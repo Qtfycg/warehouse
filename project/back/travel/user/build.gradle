@@ -9,4 +9,6 @@ dependencies {
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: '3.4.5'
     /*validation*/
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-validation', version: '3.4.5'
+    /*easy-captcha*/
+    implementation group: 'com.github.whvcse', name: 'easy-captcha', version: '1.6.2'
 }

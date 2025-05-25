@@ -25,4 +25,6 @@ public class registerVo {
     private String email;
 
     private Integer status;
+    @NotNull
+    private String code;
 }

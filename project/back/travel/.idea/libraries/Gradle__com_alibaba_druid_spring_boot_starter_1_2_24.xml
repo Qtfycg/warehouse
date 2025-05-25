@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.alibaba:druid-spring-boot-starter:1.2.24" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.alibaba" artifactId="druid-spring-boot-starter" version="1.2.24" baseVersion="1.2.24" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/com.alibaba/druid-spring-boot-starter/1.2.24/84ae074c4f31c09e1cf665605100573fb2c7e22d/druid-spring-boot-starter-1.2.24.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
