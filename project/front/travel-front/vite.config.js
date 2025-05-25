@@ -8,13 +8,14 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  resolve: {
-    alias: {
+    resolve: {
+        alias: {
       
+        },
     },
     server: {
         host: '127.0.0.1',
         port: 8080,
         https: false
-  }
+  },
 })
