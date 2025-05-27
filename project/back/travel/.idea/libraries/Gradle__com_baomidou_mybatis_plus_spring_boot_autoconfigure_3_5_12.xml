@@ -5,6 +5,8 @@
       <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/com.baomidou/mybatis-plus-spring-boot-autoconfigure/3.5.12/bff5695726e05c892775818988985d833ec1ce02/mybatis-plus-spring-boot-autoconfigure-3.5.12.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/com.baomidou/mybatis-plus-spring-boot-autoconfigure/3.5.12/9524dff8ccddf3ec24f2239aa1cac249c244fa50/mybatis-plus-spring-boot-autoconfigure-3.5.12-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

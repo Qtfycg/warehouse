@@ -5,6 +5,8 @@
       <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/com.alibaba/druid-spring-boot-starter/1.2.24/84ae074c4f31c09e1cf665605100573fb2c7e22d/druid-spring-boot-starter-1.2.24.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/com.alibaba/druid-spring-boot-starter/1.2.24/925aeda3d88469fc3d6a8719b9b4501c9b3507cf/druid-spring-boot-starter-1.2.24-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

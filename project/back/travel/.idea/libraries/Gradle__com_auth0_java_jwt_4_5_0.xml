@@ -5,6 +5,8 @@
       <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/com.auth0/java-jwt/4.5.0/d7004155fe57a107cc40fb6be0132d8ad2530613/java-jwt-4.5.0.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/com.auth0/java-jwt/4.5.0/67ecdfcdad13415b011e79d1e7d51517c4622bd1/java-jwt-4.5.0-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

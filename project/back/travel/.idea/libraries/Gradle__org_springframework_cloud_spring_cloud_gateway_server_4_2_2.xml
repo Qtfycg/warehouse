@@ -5,6 +5,8 @@
       <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-gateway-server/4.2.2/922154f71b73a0fea0978038dcbe68ee1648f0da/spring-cloud-gateway-server-4.2.2.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-gateway-server/4.2.2/24a7c678ca84009ee404c126f92a85fe33c9ce3d/spring-cloud-gateway-server-4.2.2-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

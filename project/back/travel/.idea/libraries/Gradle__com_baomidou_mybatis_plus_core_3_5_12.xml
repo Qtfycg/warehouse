@@ -5,6 +5,8 @@
       <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/com.baomidou/mybatis-plus-core/3.5.12/858e19cd1dbe697738be8b96431a43add01c76e4/mybatis-plus-core-3.5.12.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/com.baomidou/mybatis-plus-core/3.5.12/720b45f8600d2d2b48c2b74a9189e66aa9f59e80/mybatis-plus-core-3.5.12-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

@@ -5,6 +5,8 @@
       <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/io.projectreactor.addons/reactor-extra/3.5.2/163f7babfc93f949738a440ea8cae5079cdb4aaa/reactor-extra-3.5.2.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/io.projectreactor.addons/reactor-extra/3.5.2/d1f4d0af089984a5b8a941ac80fee5ffd2158a6f/reactor-extra-3.5.2-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

@@ -5,6 +5,8 @@
       <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-redis/3.4.5/62116f822da7b6bd16ddcb26bc21cc40482ccd47/spring-boot-starter-data-redis-3.4.5.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-redis/3.4.5/62116f822da7b6bd16ddcb26bc21cc40482ccd47/spring-boot-starter-data-redis-3.4.5-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

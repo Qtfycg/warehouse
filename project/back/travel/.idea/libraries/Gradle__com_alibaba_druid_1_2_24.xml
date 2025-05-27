@@ -5,6 +5,8 @@
       <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/com.alibaba/druid/1.2.24/a5d1bb8da9a0ca711d76ccb69f140581a755efab/druid-1.2.24.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/com.alibaba/druid/1.2.24/8b62ca5bebdb6d4215c6269f3a7dfa96c73ee712/druid-1.2.24-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

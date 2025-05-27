@@ -5,6 +5,8 @@
       <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/3.4.5/321436555190f2a7d3e630ca68fa57197f33616e/spring-boot-starter-actuator-3.4.5.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/3.4.5/17b2b42b80c9a718889bb5fe0ba0383b02a6a7f5/spring-boot-starter-actuator-3.4.5-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

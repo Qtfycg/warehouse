@@ -5,6 +5,8 @@
       <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/org.springframework.data/spring-data-keyvalue/3.4.5/efc4330b8ff91e76750042b8f7a0dae276912a32/spring-data-keyvalue-3.4.5.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/org.springframework.data/spring-data-keyvalue/3.4.5/b3791b02343ad51bca802ad3891560502c5d23eb/spring-data-keyvalue-3.4.5-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

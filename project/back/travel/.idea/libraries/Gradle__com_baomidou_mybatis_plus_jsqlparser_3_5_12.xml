@@ -5,6 +5,8 @@
       <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/com.baomidou/mybatis-plus-jsqlparser/3.5.12/aa18ae1f3347755f58ac4d32da1d975a4d840b14/mybatis-plus-jsqlparser-3.5.12.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/com.baomidou/mybatis-plus-jsqlparser/3.5.12/8e181816685526e721c29bb80a961086ff0877ba/mybatis-plus-jsqlparser-3.5.12-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

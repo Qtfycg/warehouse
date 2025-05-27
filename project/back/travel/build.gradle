@@ -27,15 +27,8 @@ subprojects {
         /*lombok*/
         compileOnly 'org.projectlombok:lombok:1.18.38'
         annotationProcessor 'org.projectlombok:lombok:1.18.38'
-        /*web*/
-        implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '3.4.5'
-        /*MySQL*/
-        implementation group: 'com.mysql', name: 'mysql-connector-j', version: '9.2.0'
-        /*mybatis-plus*/
-        implementation group: 'com.baomidou', name: 'mybatis-plus-spring-boot3-starter', version: '3.5.12'
-        implementation group: 'com.baomidou', name: 'mybatis-plus-jsqlparser', version: '3.5.12'
-        /*druid*/
-        implementation group: 'com.alibaba', name: 'druid-spring-boot-starter', version: '1.2.24'
+        /*starter*/
+        implementation group: 'org.springframework.boot', name: 'spring-boot-starter', version: '3.4.5'
         /*actuator*/
         implementation group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: '3.4.5'
        }

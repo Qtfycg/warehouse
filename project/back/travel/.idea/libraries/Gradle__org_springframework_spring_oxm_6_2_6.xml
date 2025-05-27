@@ -5,6 +5,8 @@
       <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/org.springframework/spring-oxm/6.2.6/b5d94c0552ad63802454d248bddfe976617064a0/spring-oxm-6.2.6.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/org.springframework/spring-oxm/6.2.6/dbfb493d54f8e7d08f974448c5e128951a3c6784/spring-oxm-6.2.6-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
