@@ -17,7 +17,6 @@
   
 3.arithmetic
 
-4.debt
 
 
 ```
