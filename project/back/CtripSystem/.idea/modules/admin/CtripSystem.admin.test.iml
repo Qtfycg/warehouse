@@ -11,6 +11,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="CtripSystem.admin.main" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:3.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.projectlombok:lombok:1.18.38" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:3.5.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:3.5.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-logging:3.5.0" level="project" />

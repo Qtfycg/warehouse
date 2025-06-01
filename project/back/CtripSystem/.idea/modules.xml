@@ -2,6 +2,54 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CtripSystem.iml" filepath="$PROJECT_DIR$/CtripSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/admin/CtripSystem.admin.iml" filepath="$PROJECT_DIR$/.idea/modules/admin/CtripSystem.admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/admin/CtripSystem.admin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/admin/CtripSystem.admin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/admin/CtripSystem.admin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/admin/CtripSystem.admin.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/CtripSystem.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/CtripSystem.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/CtripSystem.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/CtripSystem.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/CtripSystem.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/CtripSystem.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/CtripSystem.config.iml" filepath="$PROJECT_DIR$/.idea/modules/config/CtripSystem.config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/CtripSystem.config.main.iml" filepath="$PROJECT_DIR$/.idea/modules/config/CtripSystem.config.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/CtripSystem.config.test.iml" filepath="$PROJECT_DIR$/.idea/modules/config/CtripSystem.config.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/file/CtripSystem.file.iml" filepath="$PROJECT_DIR$/.idea/modules/file/CtripSystem.file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/file/CtripSystem.file.main.iml" filepath="$PROJECT_DIR$/.idea/modules/file/CtripSystem.file.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/file/CtripSystem.file.test.iml" filepath="$PROJECT_DIR$/.idea/modules/file/CtripSystem.file.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gateway/CtripSystem.gateway.iml" filepath="$PROJECT_DIR$/.idea/modules/gateway/CtripSystem.gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gateway/CtripSystem.gateway.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gateway/CtripSystem.gateway.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gateway/CtripSystem.gateway.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gateway/CtripSystem.gateway.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/geo/CtripSystem.geo.iml" filepath="$PROJECT_DIR$/.idea/modules/geo/CtripSystem.geo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/geo/CtripSystem.geo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/geo/CtripSystem.geo.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/geo/CtripSystem.geo.test.iml" filepath="$PROJECT_DIR$/.idea/modules/geo/CtripSystem.geo.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CtripSystem.main.iml" filepath="$PROJECT_DIR$/.idea/modules/CtripSystem.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marketing/CtripSystem.marketing.iml" filepath="$PROJECT_DIR$/.idea/modules/marketing/CtripSystem.marketing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marketing/CtripSystem.marketing.main.iml" filepath="$PROJECT_DIR$/.idea/modules/marketing/CtripSystem.marketing.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marketing/CtripSystem.marketing.test.iml" filepath="$PROJECT_DIR$/.idea/modules/marketing/CtripSystem.marketing.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/notify/CtripSystem.notify.iml" filepath="$PROJECT_DIR$/.idea/modules/notify/CtripSystem.notify.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/notify/CtripSystem.notify.main.iml" filepath="$PROJECT_DIR$/.idea/modules/notify/CtripSystem.notify.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/notify/CtripSystem.notify.test.iml" filepath="$PROJECT_DIR$/.idea/modules/notify/CtripSystem.notify.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order/CtripSystem.order.iml" filepath="$PROJECT_DIR$/.idea/modules/order/CtripSystem.order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order/CtripSystem.order.main.iml" filepath="$PROJECT_DIR$/.idea/modules/order/CtripSystem.order.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order/CtripSystem.order.test.iml" filepath="$PROJECT_DIR$/.idea/modules/order/CtripSystem.order.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/payment/CtripSystem.payment.iml" filepath="$PROJECT_DIR$/.idea/modules/payment/CtripSystem.payment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/payment/CtripSystem.payment.main.iml" filepath="$PROJECT_DIR$/.idea/modules/payment/CtripSystem.payment.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/payment/CtripSystem.payment.test.iml" filepath="$PROJECT_DIR$/.idea/modules/payment/CtripSystem.payment.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product/CtripSystem.product.iml" filepath="$PROJECT_DIR$/.idea/modules/product/CtripSystem.product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product/CtripSystem.product.main.iml" filepath="$PROJECT_DIR$/.idea/modules/product/CtripSystem.product.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product/CtripSystem.product.test.iml" filepath="$PROJECT_DIR$/.idea/modules/product/CtripSystem.product.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/registry/CtripSystem.registry.iml" filepath="$PROJECT_DIR$/.idea/modules/registry/CtripSystem.registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/registry/CtripSystem.registry.main.iml" filepath="$PROJECT_DIR$/.idea/modules/registry/CtripSystem.registry.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/registry/CtripSystem.registry.test.iml" filepath="$PROJECT_DIR$/.idea/modules/registry/CtripSystem.registry.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/search/CtripSystem.search.iml" filepath="$PROJECT_DIR$/.idea/modules/search/CtripSystem.search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/search/CtripSystem.search.main.iml" filepath="$PROJECT_DIR$/.idea/modules/search/CtripSystem.search.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/search/CtripSystem.search.test.iml" filepath="$PROJECT_DIR$/.idea/modules/search/CtripSystem.search.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stock/CtripSystem.stock.iml" filepath="$PROJECT_DIR$/.idea/modules/stock/CtripSystem.stock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stock/CtripSystem.stock.main.iml" filepath="$PROJECT_DIR$/.idea/modules/stock/CtripSystem.stock.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stock/CtripSystem.stock.test.iml" filepath="$PROJECT_DIR$/.idea/modules/stock/CtripSystem.stock.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CtripSystem.test.iml" filepath="$PROJECT_DIR$/.idea/modules/CtripSystem.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user/CtripSystem.user.iml" filepath="$PROJECT_DIR$/.idea/modules/user/CtripSystem.user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user/CtripSystem.user.main.iml" filepath="$PROJECT_DIR$/.idea/modules/user/CtripSystem.user.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user/CtripSystem.user.test.iml" filepath="$PROJECT_DIR$/.idea/modules/user/CtripSystem.user.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/front/front.iml" filepath="$PROJECT_DIR$/front/front.iml" />
     </modules>
   </component>
