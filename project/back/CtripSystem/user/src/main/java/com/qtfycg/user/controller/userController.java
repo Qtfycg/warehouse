@@ -5,10 +5,10 @@ import com.qtfycg.user.domain.Vo.loginVo;
 import com.qtfycg.user.domain.Vo.registerVo;
 import com.qtfycg.user.service.userService;
 import jakarta.annotation.Resource;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.awt.*;
+import java.io.IOException;
 
 @RestController
 @RequestMapping("/api/user")
@@ -32,4 +32,11 @@ public class userController {
         return userService.login(loginVo);
     }
 
+    /*
+    * 验证码接口
+    * */
+    @PostMapping("/captcha")
+    public R captcha(@RequestParam("phone") String phone) throws IOException, FontFormatException {
+        return userService.captcha(phone);
+    }
 }

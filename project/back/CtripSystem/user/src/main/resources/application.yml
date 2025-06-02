@@ -7,5 +7,12 @@ spring:
     username: root
     password: '050416'
     url: jdbc:mysql://localhost:3306/ctripSystem?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+  data:
+    redis:
+      database: 1
+      host: '112.124.24.102'
+      port: 6379
+      password: '050416'
+
 server:
   port: 8081

@@ -7,9 +7,13 @@ import com.qtfycg.user.domain.Vo.loginVo;
 import com.qtfycg.user.domain.Vo.registerVo;
 import com.qtfycg.user.domain.entity.user;
 
+import java.awt.*;
+import java.io.IOException;
+
 
 public interface userService extends IService<user> {
 
     R register(registerVo registerVo);
     R login(loginVo loginVo);
+    R captcha(String phone) throws IOException, FontFormatException;
 }

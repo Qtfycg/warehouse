@@ -5,15 +5,20 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.qtfycg.common.JWT.jwtUtils;
 import com.qtfycg.common.R.R;
 import com.qtfycg.common.SnowflakeId.SnowflakeIdGenerator;
+import com.qtfycg.user.config.Redis;
 import com.qtfycg.user.domain.Vo.loginVo;
 import com.qtfycg.user.domain.Vo.registerVo;
 import com.qtfycg.user.domain.entity.user;
 import com.qtfycg.user.mapper.userMapper;
 import com.qtfycg.user.service.userService;
+import com.wf.captcha.SpecCaptcha;
+import com.wf.captcha.base.Captcha;
 import jakarta.annotation.Resource;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+
+import java.awt.*;
+import java.io.IOException;
 
 
 @Service
@@ -21,8 +26,10 @@ public class userServiceImpl extends ServiceImpl<userMapper, user> implements us
 
     @Resource
     PasswordEncoder passwordEncoder;
-    @Autowired
+    @Resource
     jwtUtils jwtUtils;
+    @Resource
+    Redis redis;
     @Override
     public R register(registerVo registerVo) {
         QueryWrapper<user> queryWrapper = new QueryWrapper<>();
@@ -71,6 +78,26 @@ public class userServiceImpl extends ServiceImpl<userMapper, user> implements us
         }else {
             return R.error().message("用户不存在");
         }
+    }
+
+    @Override
+    public R captcha(String phone) throws IOException, FontFormatException {
+        /*
+        * 验证码生成
+        * */
+        SpecCaptcha captcha = new SpecCaptcha(130, 48,4);
+        captcha.setCharType(SpecCaptcha.TYPE_ONLY_NUMBER);// 设置验证码类型为纯数字
+        String captchaText = captcha.text();// 获取验证码文本
+        captcha.setFont(Captcha.FONT_1); // 设置字体
+        /*
+        * 存入redis
+        * */
+        redis.redisTemplate().opsForValue().set("captcha:" + phone, captchaText, 5 * 60); // 设置验证码有效期为5分钟
+
+
+        return R.ok().data("captcha", captchaText)
+                .data("phone", phone)
+                .message("验证码生成成功");
     }
 }
 

@@ -10,5 +10,9 @@ dependencies {
     implementation project(':common')
     /*security*/
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: '3.5.0'
+    /*easy-captcha*/
+    implementation group: 'com.github.whvcse', name: 'easy-captcha', version: '1.6.2'
+    /*redis*/
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-redis', version: '3.5.0'
 }
 
