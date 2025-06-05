@@ -3,8 +3,11 @@ package com.qtfycg.user.controller;
 import com.qtfycg.common.R.R;
 import com.qtfycg.user.domain.Vo.loginVo;
 import com.qtfycg.user.domain.Vo.registerVo;
+import com.qtfycg.user.domain.Vo.updateVo;
 import com.qtfycg.user.service.userService;
 import jakarta.annotation.Resource;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.web.bind.annotation.*;
 
 import java.awt.*;
@@ -28,15 +31,32 @@ public class userController {
     * 用户登录接口
     * */
     @PostMapping("/login")
-    public R login(@RequestBody loginVo loginVo) {
-        return userService.login(loginVo);
+    public R login(@RequestBody loginVo loginVo, HttpServletResponse response) {
+        return userService.login(loginVo, response);
     }
 
     /*
     * 验证码接口
     * */
-    @PostMapping("/captcha")
+    @GetMapping("/captcha")
     public R captcha(@RequestParam("phone") String phone) throws IOException, FontFormatException {
         return userService.captcha(phone);
     }
+
+    /*
+    * 获取用户个人信息接口
+    * */
+    @GetMapping("/me")
+    public R getInfo(HttpServletRequest request) {
+        return userService.getInfo(request);
+    }
+
+    /*
+    * 修改用户信息
+    * */
+    @PutMapping("/update")
+    public R updateUser(@RequestBody updateVo updateVo, HttpServletRequest request) {
+        return userService.updateInfo(updateVo, request);
+    }
+
 }

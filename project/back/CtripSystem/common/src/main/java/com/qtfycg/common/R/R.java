@@ -36,14 +36,12 @@ public class R {
         return this;
     }
     public R data(Map<String, Object> map) {
-        this.data = map;
+        this.data.putAll(map);
         return this;
     }
 
     public R data(String key, Object value) {
-        Map<String, Object> map = new HashMap<>();
-        map.put(key, value);
-        this.data = map;
+        this.data.put(key, value);
         return this;
     }
 }

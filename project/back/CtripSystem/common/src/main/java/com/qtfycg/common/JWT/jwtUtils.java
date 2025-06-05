@@ -18,7 +18,7 @@ public class jwtUtils {
     /**
      * 生成 Token
      */
-    public static String generateToken(Long userId, String role) {
+    public  String generateToken(Long userId, String role) {
         Date now = new Date();
         Date expire = new Date(now.getTime() + EXPIRE_TIME);
 
@@ -33,17 +33,17 @@ public class jwtUtils {
     /**
      * 验证 Token 并解析内容
      */
-    public static DecodedJWT parseToken(String token) {
+    public  DecodedJWT parseToken(String token) {
         return JWT.require(ALGORITHM)
                 .build()
                 .verify(token);
     }
 
-    public static Long getUserId(String token) {
+    public  Long getUserId(String token) {
         return Long.parseLong(parseToken(token).getSubject());
     }
 
-    public static String getUserRole(String token) {
+    public  String getUserRole(String token) {
         return parseToken(token).getClaim("role").asString();
     }
 

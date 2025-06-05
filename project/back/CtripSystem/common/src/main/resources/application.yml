@@ -1,6 +1,3 @@
 spring:
   application:
     name: common
-jwt:
-  secret: qtfycg
-  expire: 86400000
