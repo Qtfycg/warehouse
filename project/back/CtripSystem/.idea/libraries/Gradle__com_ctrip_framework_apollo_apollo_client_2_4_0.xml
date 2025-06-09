@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ctrip.framework.apollo:apollo-client:2.4.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.ctrip.framework.apollo" artifactId="apollo-client" version="2.4.0" baseVersion="2.4.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/com.ctrip.framework.apollo/apollo-client/2.4.0/4f73e4a8a46078207cdb9c3180398dabfe70b820/apollo-client-2.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
