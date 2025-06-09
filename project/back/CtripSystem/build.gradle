@@ -27,6 +27,11 @@ subprojects {
         /*lombok*/
         implementation group: 'org.projectlombok', name: 'lombok', version: '1.18.38'
         annotationProcessor 'org.projectlombok:lombok:1.18.38'
+        /*服务注册与发现（Consul）*/
+        implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-consul-discovery', version: '4.3.0'
+        /*Apollo 配置中心*/
+        implementation group: 'com.ctrip.framework.apollo', name: 'apollo-client', version: '2.4.0'
+
 
     }
 

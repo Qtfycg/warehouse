@@ -1,12 +1,18 @@
 # warehouse
 此仓库用于归档在求职及学习过程中的示例项目与基础知识笔记。
 
-## 目录结构
+### 目录结构
 
-**project**
-项目源码与对应文档
+######　project
+`项目源码与对应文档`
+
 `back`
-具体后端代码，包含 `CtripSystem`、`LefitSystem`、`travel` 等子模块
+
+`CtripSystem`
+`LefitSystem`
+
+
+
 `Pdocumentation`
 各项目的说明文档（`coding.md`、`travel.md`、`arithmetic.md`）
 **rudiments**

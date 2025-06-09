@@ -1,4 +1,4 @@
-package com.qtfycg.user.config;
+package com.qtfycg.product.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

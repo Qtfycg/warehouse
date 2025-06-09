@@ -2,6 +2,7 @@
   <dictionary name="project">
     <words>
       <w>ctrip</w>
+      <w>nacos</w>
     </words>
   </dictionary>
 </component>

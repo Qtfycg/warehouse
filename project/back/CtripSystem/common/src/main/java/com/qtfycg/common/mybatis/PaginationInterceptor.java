@@ -1,4 +1,6 @@
 package com.qtfycg.common.mybatis;
 
-public record PaginationInterceptor() {
+import com.baomidou.mybatisplus.extension.plugins.inner.InnerInterceptor;
+
+public record PaginationInterceptor() implements InnerInterceptor {
 }

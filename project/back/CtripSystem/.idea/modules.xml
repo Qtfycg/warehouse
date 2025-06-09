@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CtripSystem.iml" filepath="$PROJECT_DIR$/CtripSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CtripSystem.iml" filepath="$PROJECT_DIR$/.idea/modules/CtripSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/admin/CtripSystem.admin.iml" filepath="$PROJECT_DIR$/.idea/modules/admin/CtripSystem.admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/admin/CtripSystem.admin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/admin/CtripSystem.admin.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/admin/CtripSystem.admin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/admin/CtripSystem.admin.test.iml" />

@@ -7,14 +7,10 @@ import lombok.Data;
 @Data
 public class user {
     private Long id;
-
     private String name;
-
     private String password;
-
     private String phone;
-
     private String email;
-
     private Integer status;
+    private Integer role;
 }

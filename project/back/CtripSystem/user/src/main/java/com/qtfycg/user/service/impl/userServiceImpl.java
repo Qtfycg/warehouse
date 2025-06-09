@@ -56,6 +56,7 @@ public class userServiceImpl extends ServiceImpl<userMapper, user> implements us
             SnowflakeIdGenerator idGenerator = new SnowflakeIdGenerator(1, 1);
             long id = idGenerator.nextId();
             newUser.setId(id);
+            newUser.setRole(1); // 默认角色为1
             newUser.setPhone(registerVo.getPhone());
             String encodedPassword = passwordEncoder.encode(registerVo.getPassword());
             newUser.setPassword(encodedPassword);
@@ -170,6 +171,9 @@ public class userServiceImpl extends ServiceImpl<userMapper, user> implements us
                 .data("user", userInfo);
     }
 
+    /*
+    * 更新个人信息接口
+    * */
     @Override
     public R updateInfo(updateVo updateVo, HttpServletRequest request) {
         String token = request.getHeader("Authorization");
