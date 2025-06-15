@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id=":gateway:test" external.linked.project.path="$MODULE_DIR$/../../../gateway" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="com.qtfycg" external.system.module.type="sourceSet" external.system.module.version="1.0.0" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet external-system-id="GRADLE" type="web" name="Web">
+      <configuration>
+        <webroots />
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager">
     <output-test url="file://$MODULE_DIR$/../../../gateway/build/classes/java/test" />
     <exclude-output />
@@ -112,13 +119,16 @@
     <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-unix-common:4.1.121.Final" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-codec-socks:4.1.121.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.boot:spring-boot-starter-data-redis:3.5.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.boot:spring-boot-starter-aop:3.5.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.baomidou:mybatis-plus-spring-boot3-starter:3.5.12" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.alibaba:druid-spring-boot-starter:1.2.24" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.mysql:mysql-connector-j:9.3.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.auth0:java-jwt:4.5.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: jakarta.servlet:jakarta.servlet-api:6.0.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.boot:spring-boot-configuration-metadata:3.5.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.data:spring-data-redis:3.5.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.lettuce:lettuce-core:6.5.5.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.aspectj:aspectjweaver:1.9.24" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.boot:spring-boot-starter-jdbc:3.4.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.baomidou:mybatis-plus:3.5.12" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.mybatis:mybatis-spring:3.0.4" level="project" />

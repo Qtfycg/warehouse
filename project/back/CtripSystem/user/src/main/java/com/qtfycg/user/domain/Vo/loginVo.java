@@ -5,7 +5,7 @@ import lombok.NonNull;
 
 @Data
 public class loginVo {
-    @NonNull
+
     private String phone;
     private String password;
     private String code; // 验证码

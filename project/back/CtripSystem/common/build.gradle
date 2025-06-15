@@ -11,6 +11,13 @@ dependencies {
     implementation group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jsr310', version: '2.19.0'
     /*mybatis-plus*/
     implementation group: 'com.baomidou', name: 'mybatis-plus-spring-boot3-starter', version: '3.5.12'
+    /*Aop*/
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-aop', version: '3.5.0'
+    /*spring-web*/
+    implementation group: 'org.springframework', name: 'spring-web', version: '6.2.7'
+    /*jakarta.servlet*/
+    implementation 'jakarta.servlet:jakarta.servlet-api:6.0.0'
+
 
 }
 

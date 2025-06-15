@@ -3,6 +3,22 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../../../../resource/Gerepository/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.38/57f8f5e02e92a30fd21b80cbd426a4172b5f8e29/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="LefitSystem.user.main" />
+        <module name="LefitSystem.auth.main" />
+        <module name="LefitSystem.infra.main" />
+        <module name="com.qtfycg.LefitSystem.config.main" />
+        <module name="LefitSystem.gateway.main" />
+        <module name="LefitSystem.order.main" />
+        <module name="LefitSystem.common.main" />
+        <module name="LefitSystem.admin.main" />
+        <module name="LefitSystem.course.main" />
+        <module name="LefitSystem.job.main" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="21" />
   </component>

@@ -6,7 +6,7 @@ import lombok.Data;
 
 @TableName(value ="user")
 @Data
-public class user {
+public class user{
     private Long id;
     private Integer status;
     private String name;
@@ -14,4 +14,5 @@ public class user {
     private String phone;
     private String email;
     private Integer role;
+
 }

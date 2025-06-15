@@ -1,6 +1,8 @@
 spring:
   application:
     name: gateway
+  main:
+    web-application-type: reactive
   data:
     redis:
       database: 1
@@ -44,8 +46,6 @@ spring:
               uri: lb://admin
               predicates:
                 - Path=/api/admin/**
-
-
 security:
   ignore:
     urls:

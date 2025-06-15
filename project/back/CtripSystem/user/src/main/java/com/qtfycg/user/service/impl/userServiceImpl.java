@@ -6,6 +6,8 @@ import com.qtfycg.common.JWT.jwtUtils;
 import com.qtfycg.common.R.R;
 import com.qtfycg.common.Redis.redisUtils;
 import com.qtfycg.common.SnowflakeId.SnowflakeIdGenerator;
+import com.qtfycg.common.annotation.Login;
+import com.qtfycg.common.annotation.context.loginHolder;
 import com.qtfycg.user.domain.Vo.loginVo;
 import com.qtfycg.user.domain.Vo.registerVo;
 import com.qtfycg.user.domain.Vo.updateVo;
@@ -15,7 +17,6 @@ import com.qtfycg.user.service.userService;
 import com.wf.captcha.SpecCaptcha;
 import com.wf.captcha.base.Captcha;
 import jakarta.annotation.Resource;
-import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -47,6 +48,7 @@ public class userServiceImpl extends ServiceImpl<userMapper, user> implements us
         user existingUser = baseMapper.selectOne(queryWrapper);
         if (existingUser != null) {
             return R.error()
+                    .code(300)
                     .message("手机号已被注册");
         }else {
             user newUser = new user();
@@ -84,6 +86,7 @@ public class userServiceImpl extends ServiceImpl<userMapper, user> implements us
                 Object code = redis.redisTemplate().opsForValue().get("captcha:" + loginVo.getPhone());
                 if(code == null || !code.equals(loginVo.getCode())) {
                     return R.error()
+                            .code(300)
                             .message("验证码错误或已过期");
                 }
                 String token = jwtUtils.generateToken(existingUser.getId(), existingUser.getPhone());
@@ -97,10 +100,12 @@ public class userServiceImpl extends ServiceImpl<userMapper, user> implements us
                         .data("user", existingUser);
             }else {
                 return R.error()
+                        .code(300)
                         .message("密码错误");
             }
         }else {
             return R.error()
+                    .code(300)
                     .message("用户不存在");
         }
     }
@@ -141,69 +146,49 @@ public class userServiceImpl extends ServiceImpl<userMapper, user> implements us
     /*
     * 用户个人信息查询接口
     * */
+    @Login
     @Override
-    public R getInfo(HttpServletRequest request) {
+    public R getInfo() {
 
-        String authHeader = request.getHeader("Authorization");
-
-        if (authHeader == null || !authHeader.startsWith("Bearer ")) {
-            return R.error()
-                    .message("请先登录");
-        }
-
-        String token = authHeader.replace("Bearer ", "");
-        Long userId;
-
-        try {
-            userId = jwtUtils.getUserId(token);
-        } catch (Exception e) {
-            return R.error()
-                    .message("token 无效或已过期");
-        }
-
+        Long userId = loginHolder.getUserId();
         user userInfo = baseMapper.selectById(userId);
         if (userInfo == null) {
             return R.error()
+                    .code(300)
                     .message("用户不存在");
         }
-
         return R.ok()
+                .code(200)
                 .data("user", userInfo);
-    }
+        }
 
     /*
-    * 更新个人信息接口
-    * */
+     * 更新个人信息接口
+     * */
+    @Login
     @Override
-    public R updateInfo(updateVo updateVo, HttpServletRequest request) {
-        String token = request.getHeader("Authorization");
-        if(token == null || !token.startsWith("Bearer ")) {
+    public R updateInfo(updateVo updateVo) {
+        Long userId = loginHolder.getUserId();
+        user existingUser = baseMapper.selectById(userId);
+        if (existingUser == null) {
             return R.error()
-                    .message("请先登录");
-        }else {
-            Long userId = jwtUtils.getUserId(token.replace("Bearer ", ""));
-            if(userId == null) {
-                return R.error()
-                        .message("token 无效或已过期");
-            }else {
-                user existingUser = baseMapper.selectById(userId);
-                if(existingUser == null) {
-                    return R.error()
-                            .message("用户不存在");
-                }else {
-                    existingUser.setName(updateVo.getName());
-                    existingUser.setEmail(updateVo.getEmail());
-                    existingUser.setPhone(updateVo.getPhone());
-                    baseMapper.updateById(existingUser);
-                    return R.ok()
-                            .code(200)
-                            .message("用户信息更新成功")
-                            .data("user", existingUser);
-                }
-            }
+                    .code(300)
+                    .message("用户不存在");
+        } else {
+            existingUser.setName(updateVo.getName());
+            existingUser.setEmail(updateVo.getEmail());
+            existingUser.setPhone(updateVo.getPhone());
+            baseMapper.updateById(existingUser);
+            return R.ok()
+                    .code(200)
+                    .message("个人信息更新成功")
+                    .data("user", existingUser);
         }
     }
 }
+
+
+
 
 
 
