@@ -36,11 +36,7 @@ public class adminController {
     @GetMapping("/user/list")
     public R getList(@RequestParam("page") int page,
                          @RequestParam("size") int size,
-                         @RequestParam("keyword") String keyword) {
+                         @RequestParam(value = "keyword",required = false) String keyword ) {
         return adminService.getList(page, size, keyword);
     }
-
-    /*
-    * 拉黑用户接口
-    * */
 }

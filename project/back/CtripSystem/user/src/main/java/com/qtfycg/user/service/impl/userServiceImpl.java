@@ -48,7 +48,7 @@ public class userServiceImpl extends ServiceImpl<userMapper, user> implements us
         user existingUser = baseMapper.selectOne(queryWrapper);
         if (existingUser != null) {
             return R.error()
-                    .code(300)
+                    .code(302)
                     .message("手机号已被注册");
         }else {
             user newUser = new user();
@@ -86,7 +86,7 @@ public class userServiceImpl extends ServiceImpl<userMapper, user> implements us
                 Object code = redis.redisTemplate().opsForValue().get("captcha:" + loginVo.getPhone());
                 if(code == null || !code.equals(loginVo.getCode())) {
                     return R.error()
-                            .code(300)
+                            .code(304)
                             .message("验证码错误或已过期");
                 }
                 String token = jwtUtils.generateToken(existingUser.getId(), existingUser.getPhone());
@@ -100,12 +100,12 @@ public class userServiceImpl extends ServiceImpl<userMapper, user> implements us
                         .data("user", existingUser);
             }else {
                 return R.error()
-                        .code(300)
+                        .code(304)
                         .message("密码错误");
             }
         }else {
             return R.error()
-                    .code(300)
+                    .code(303)
                     .message("用户不存在");
         }
     }
@@ -149,12 +149,11 @@ public class userServiceImpl extends ServiceImpl<userMapper, user> implements us
     @Login
     @Override
     public R getInfo() {
-
         Long userId = loginHolder.getUserId();
         user userInfo = baseMapper.selectById(userId);
         if (userInfo == null) {
             return R.error()
-                    .code(300)
+                    .code(303)
                     .message("用户不存在");
         }
         return R.ok()
@@ -172,7 +171,7 @@ public class userServiceImpl extends ServiceImpl<userMapper, user> implements us
         user existingUser = baseMapper.selectById(userId);
         if (existingUser == null) {
             return R.error()
-                    .code(300)
+                    .code(303)
                     .message("用户不存在");
         } else {
             existingUser.setName(updateVo.getName());

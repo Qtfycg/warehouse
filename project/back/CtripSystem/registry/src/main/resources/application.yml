@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: registry
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "health"
+server:
+  port: 8084

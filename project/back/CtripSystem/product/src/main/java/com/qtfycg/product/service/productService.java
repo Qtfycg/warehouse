@@ -6,6 +6,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 
 
 public interface productService extends IService<product> {
-    R getList();
+    R getList(Integer page, Integer size, String keyword);
+    R getDetail(Long id);
 
 }

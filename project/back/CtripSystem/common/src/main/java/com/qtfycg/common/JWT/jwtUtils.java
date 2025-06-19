@@ -10,7 +10,7 @@ import java.util.Date;
 @Component
 public class jwtUtils {
     private static final String SECRET = "qtfycg";
-    private static final long EXPIRE_TIME = 5 * 60 * 60; // 5小时过期时间
+    private static final long EXPIRE_TIME = 5 * 60 * 60 * 1000;
     private static final Algorithm ALGORITHM = Algorithm.HMAC256(SECRET);
 
     /**

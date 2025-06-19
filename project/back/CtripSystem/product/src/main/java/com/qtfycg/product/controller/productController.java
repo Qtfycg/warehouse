@@ -17,11 +17,19 @@ public class productController {
     * 产品列表接口
     * */
     @GetMapping("/list")
-    public R getList() {
+    public R getList(Integer page, Integer size, String keyword) {
         // 模拟返回商品列表
-        return productService.getList();
+        return productService.getList(page, size, keyword);
     }
 
+    /*
+    * 获取产品详情
+    * */
+    @GetMapping("/detail")
+    public R getDetail(Long id) {
+        // 模拟返回商品详情
+        return productService.getDetail(id);
+    }
     /*
     * 产品详情接口
     * *//*

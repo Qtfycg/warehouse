@@ -35,12 +35,12 @@ public class adminServiceImpl extends ServiceImpl<adminMapper, user> implements 
         if (user != null) {
             if(user.getRole() == 1){
                 return R.error()
-                        .code(500)
+                        .code(502)
                         .message("该账号不是管理员账号，请使用管理员账号登录");
             }else{
                 if (!user.getPassword().equals(loginVo.getPassword())) {
                     return R.error()
-                            .code(500)
+                            .code(503)
                             .message("密码错误，请重新输入");
                 } else {
                     String token = jwtUtils.generateToken(user.getId(), user.getPhone());
@@ -55,7 +55,7 @@ public class adminServiceImpl extends ServiceImpl<adminMapper, user> implements 
             }
         }
         return R.error()
-                .code(500)
+                .code(501)
                 .message("账号不存在，请先注册");
     }
 
@@ -70,7 +70,7 @@ public class adminServiceImpl extends ServiceImpl<adminMapper, user> implements 
         user userInfo = baseMapper.selectById(userId);
         if (userInfo == null) {
             return R.error()
-                    .code(500)
+                    .code(501)
                     .message("用户不存在");
         }
         return R.ok()
@@ -89,12 +89,12 @@ public class adminServiceImpl extends ServiceImpl<adminMapper, user> implements 
         user getVo = baseMapper.selectById(userId);
         if (getVo == null) {
             return R.error()
-                    .code(500)
+                    .code(501)
                     .message("账号不存在，请先登录");
         }else {
             if( getVo.getRole() == 1) {
                 return R.error()
-                        .code(500)
+                        .code(501)
                         .message("该账号不是管理员账号，请使用管理员账号登录");
             } else {
                 // 分页查询用户列表

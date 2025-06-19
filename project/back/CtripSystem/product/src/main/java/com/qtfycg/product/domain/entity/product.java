@@ -20,7 +20,7 @@ public class product {
 
     private String description;
 
-    private Long categoryId;
+    private Long type;
 
     private Integer status;
 
