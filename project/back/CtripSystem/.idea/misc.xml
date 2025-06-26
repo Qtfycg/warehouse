@@ -27,8 +27,4 @@
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
-  <component name="SshConsoleOptionsProvider">
-    <option name="myConnectionType" value="CURRENT_VAGRANT" />
-    <option name="myConnectionId" value="" />
-  </component>
 </project>

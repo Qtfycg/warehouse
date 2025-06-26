@@ -30,21 +30,5 @@ public class productController {
         // 模拟返回商品详情
         return productService.getDetail(id);
     }
-    /*
-    * 产品详情接口
-    * *//*
-    @GetMapping("/detail")
-    public R getDetail() {
-        // 模拟返回商品详情
-        return productService.getDetail();
-    }
 
-    *//*
-    * 获取产品分类列表接口
-    * *//*
-    @GetMapping("/category/list")
-    public R getCategoryList() {
-        // 模拟返回商品分类列表
-        return productService.getCategoryList();
-    }*/
 }

@@ -16,3 +16,9 @@ spring:
       pool-prepared-statements: true
       max-pool-prepared-statement-per-connection-size: 20
       filters: stat, wall, log4j
+  data:
+    redis:
+      host: 112.124.24.102
+      port: 6379
+      password: '050416'
+      database: 0
