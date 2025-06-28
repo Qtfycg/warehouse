@@ -1,4 +1,0 @@
-E:\code\IDE\toolbox\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=E:/code/IDE/toolbox/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S E:\code\warehouse\warehouse\project\back\arithmetic -B E:\code\warehouse\warehouse\project\back\arithmetic\cmake-build-debug
--- Configuring done (0.3s)
--- Generating done (0.0s)
--- Build files have been written to: E:/code/warehouse/warehouse/project/back/arithmetic/cmake-build-debug
