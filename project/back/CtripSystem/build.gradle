@@ -27,8 +27,9 @@ subprojects {
         /*lombok*/
         implementation group: 'org.projectlombok', name: 'lombok', version: '1.18.38'
         annotationProcessor 'org.projectlombok:lombok:1.18.38'
-        /*服务注册与发现（Consul）*/
+        /*Consul*/
         implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-consul-discovery', version: '4.3.0'
+        /*actuator*/
         implementation group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: '3.5.0'
 
 

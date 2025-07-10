@@ -25,6 +25,7 @@ import java.awt.*;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.Base64;
+import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 
 
@@ -83,21 +84,23 @@ public class userServiceImpl extends ServiceImpl<userMapper, user> implements us
         user existingUser = baseMapper.selectOne(queryWrapper);
         if(existingUser != null){
             if(passwordEncoder.matches(loginVo.getPassword(), existingUser.getPassword())){
-                Object code = redis.redisTemplate().opsForValue().get("captcha:" + loginVo.getPhone());
+                String code = Objects.requireNonNull(redis.redisTemplate().opsForValue().get("captcha:" + loginVo.getPhone())).toString();
                 if(code == null || !code.equals(loginVo.getCode())) {
+                    System.out.println(loginVo.getCode() + " " + code);
                     return R.error()
                             .code(304)
                             .message("验证码错误或已过期");
-                }
-                String token = jwtUtils.generateToken(existingUser.getId(), existingUser.getPhone());
-                response.setHeader("Authorization", "Bearer " + token);
-                response.setHeader("Access-Control-Expose-Headers", "Authorization"); // 允许前端获取该响应头
+                }else {
+                    String token = jwtUtils.generateToken(existingUser.getId(), existingUser.getPhone());
+                    response.setHeader("Authorization", "Bearer " + token);
+                    response.setHeader("Access-Control-Expose-Headers", "Authorization"); // 允许前端获取该响应头
 
-                return R.ok()
-                        .code(200)
-                        .message("登录成功")
-                        .data("token", token)
-                        .data("user", existingUser);
+                    return R.ok()
+                            .code(200)
+                            .message("登录成功")
+                            .data("token", token)
+                            .data("user", existingUser);
+                }
             }else {
                 return R.error()
                         .code(304)
@@ -121,6 +124,11 @@ public class userServiceImpl extends ServiceImpl<userMapper, user> implements us
         SpecCaptcha captcha = new SpecCaptcha(130, 48,4);
         captcha.setCharType(SpecCaptcha.TYPE_ONLY_NUMBER);// 设置验证码类型为纯数字
         String captchaText = captcha.text();// 获取验证码文本
+        /*
+         * 存入redis
+         * */
+        redis.redisTemplate.opsForValue().set("captcha:" + phone, captchaText, 5, TimeUnit.MINUTES);
+
         captcha.setFont(Captcha.FONT_1); // 设置字体
         /*
         * 将验证码图像输出为Base64编码的字符串
@@ -130,11 +138,8 @@ public class userServiceImpl extends ServiceImpl<userMapper, user> implements us
         * 输出验证码图像到字节数组输出流
         * */
         captcha.out(out);
+
         String base64Img = "data:image/png;base64," + Base64.getEncoder().encodeToString(out.toByteArray());
-        /*
-        * 存入redis
-        * */
-        redis.redisTemplate().opsForValue().set("captcha:" + phone, captchaText, 5 * 60, TimeUnit.SECONDS); // 设置验证码有效期为5分钟
 
         return R.ok()
                 .code(200)
