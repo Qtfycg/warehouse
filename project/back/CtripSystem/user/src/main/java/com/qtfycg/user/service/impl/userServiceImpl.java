@@ -1,5 +1,6 @@
 package com.qtfycg.user.service.impl;
 
+import ch.qos.logback.classic.pattern.MessageConverter;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.qtfycg.common.JWT.jwtUtils;
@@ -8,6 +9,8 @@ import com.qtfycg.common.Redis.redisUtils;
 import com.qtfycg.common.SnowflakeId.SnowflakeIdGenerator;
 import com.qtfycg.common.annotation.Login;
 import com.qtfycg.common.annotation.context.loginHolder;
+import com.qtfycg.common.mq.Sender.FanoutMessageSender;
+import com.qtfycg.common.mq.message.userRegistry;
 import com.qtfycg.user.domain.Vo.loginVo;
 import com.qtfycg.user.domain.Vo.registerVo;
 import com.qtfycg.user.domain.Vo.updateVo;
@@ -18,6 +21,7 @@ import com.wf.captcha.SpecCaptcha;
 import com.wf.captcha.base.Captcha;
 import jakarta.annotation.Resource;
 import jakarta.servlet.http.HttpServletResponse;
+import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -38,6 +42,11 @@ public class userServiceImpl extends ServiceImpl<userMapper, user> implements us
     jwtUtils jwtUtils;
     @Resource
     redisUtils redis;
+    @Resource
+    FanoutMessageSender fanoutMessageSender;
+
+
+
 
     /*
     * 注册接口
@@ -67,6 +76,13 @@ public class userServiceImpl extends ServiceImpl<userMapper, user> implements us
             newUser.setEmail(registerVo.getEmail());
             newUser.setStatus(1); // 默认状态为1
             baseMapper.insert(newUser);
+            userRegistry userRegisterMessage = new userRegistry();
+            userRegisterMessage.setUserId(newUser.getId());
+            userRegisterMessage.setPhone(newUser.getPhone());
+            userRegisterMessage.setUsername(newUser.getName());
+            userRegisterMessage.setEmail(newUser.getEmail());
+            fanoutMessageSender.send("user.register.exchange", userRegisterMessage);
+
             return R.ok()
                     .code(200)
                     .message("注册成功").

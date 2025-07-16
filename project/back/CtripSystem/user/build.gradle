@@ -14,5 +14,7 @@ dependencies {
     implementation group: 'com.github.whvcse', name: 'easy-captcha', version: '1.6.2'
     /*redis*/
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-redis', version: '3.5.0'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.19.1'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-amqp', version: '3.5.3'
 }
 

@@ -9,7 +9,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/CtripSystem.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/CtripSystem.common.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/CtripSystem.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/CtripSystem.common.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/CtripSystem.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/CtripSystem.common.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/CtripSystem.config.iml" filepath="$PROJECT_DIR$/.idea/modules/config/CtripSystem.config.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/CtripSystem.config.main.iml" filepath="$PROJECT_DIR$/.idea/modules/config/CtripSystem.config.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/CtripSystem.config.test.iml" filepath="$PROJECT_DIR$/.idea/modules/config/CtripSystem.config.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/file/CtripSystem.file.iml" filepath="$PROJECT_DIR$/.idea/modules/file/CtripSystem.file.iml" />
@@ -50,7 +49,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/user/CtripSystem.user.iml" filepath="$PROJECT_DIR$/.idea/modules/user/CtripSystem.user.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/user/CtripSystem.user.main.iml" filepath="$PROJECT_DIR$/.idea/modules/user/CtripSystem.user.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/user/CtripSystem.user.test.iml" filepath="$PROJECT_DIR$/.idea/modules/user/CtripSystem.user.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/front/front.iml" filepath="$PROJECT_DIR$/front/front.iml" />
     </modules>
   </component>
 </project>

@@ -4,7 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58b0895a-343f-45b1-8582-1e60f75dc837" name="更改" comment="" />
+    <list default="true" id="7161a751-682d-43b4-966d-3807cc095e9a" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/../CtripSystem/admin/src/main/java/com/qtfycg/admin/controller/flightController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CtripSystem/admin/src/main/java/com/qtfycg/admin/controller/hotelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CtripSystem/admin/src/main/java/com/qtfycg/admin/controller/travelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CtripSystem/admin/src/main/java/com/qtfycg/admin/domain/Vo/createVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CtripSystem/admin/src/main/java/com/qtfycg/admin/domain/entity/flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CtripSystem/order/src/main/java/com/qtfycg/order/domain/Vo/createVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../front/trip/src/views/user/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CtripSystem/.gradle/8.9/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CtripSystem/.gradle/8.9/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CtripSystem/.gradle/8.9/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../CtripSystem/.gradle/8.9/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CtripSystem/.gradle/8.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CtripSystem/.gradle/8.9/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CtripSystem/.gradle/8.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../CtripSystem/.gradle/8.9/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CtripSystem/.gradle/8.9/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CtripSystem/.gradle/8.9/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CtripSystem/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../CtripSystem/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CtripSystem/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../CtripSystem/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CtripSystem/.idea/dictionaries/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CtripSystem/.idea/dictionaries/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CtripSystem/.idea/mybatisx/templates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CtripSystem/.idea/mybatisx/templates.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CtripSystem/admin/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CtripSystem/admin/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CtripSystem/admin/src/main/java/com/qtfycg/admin/controller/productController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CtripSystem/admin/src/main/java/com/qtfycg/admin/controller/productController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CtripSystem/admin/src/main/java/com/qtfycg/admin/domain/Vo/createProductVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CtripSystem/admin/src/main/java/com/qtfycg/admin/domain/entity/product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CtripSystem/admin/src/main/java/com/qtfycg/admin/domain/entity/product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CtripSystem/admin/src/main/java/com/qtfycg/admin/service/impl/productServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CtripSystem/admin/src/main/java/com/qtfycg/admin/service/impl/productServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CtripSystem/admin/src/main/java/com/qtfycg/admin/service/productService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CtripSystem/admin/src/main/java/com/qtfycg/admin/service/productService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CtripSystem/common/build/tmp/compileJava/compileTransaction/stash-dir/redisUtils.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CtripSystem/docs/coding-style.md" beforeDir="false" afterPath="$PROJECT_DIR$/../CtripSystem/docs/coding-style.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CtripSystem/order/src/main/java/com/qtfycg/order/controller/orderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CtripSystem/order/src/main/java/com/qtfycg/order/controller/orderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CtripSystem/order/src/main/java/com/qtfycg/order/domain/entity/order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CtripSystem/order/src/main/java/com/qtfycg/order/domain/entity/order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CtripSystem/order/src/main/java/com/qtfycg/order/service/impl/orderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CtripSystem/order/src/main/java/com/qtfycg/order/service/impl/orderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CtripSystem/order/src/main/java/com/qtfycg/order/service/orderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CtripSystem/order/src/main/java/com/qtfycg/order/service/orderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CtripSystem/product/src/main/java/com/qtfycg/product/domain/entity/product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CtripSystem/product/src/main/java/com/qtfycg/product/domain/entity/product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CtripSystem/product/src/main/java/com/qtfycg/product/service/impl/productServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CtripSystem/product/src/main/java/com/qtfycg/product/service/impl/productServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CtripSystem/user/build/tmp/compileJava/compileTransaction/stash-dir/userServiceImpl.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CtripSystem/user/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CtripSystem/user/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CtripSystem/user/src/main/java/com/qtfycg/user/domain/Vo/loginVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CtripSystem/user/src/main/java/com/qtfycg/user/domain/Vo/loginVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arithmetic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front/trip/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../front/trip/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front/trip/src/views/login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front/trip/src/views/user/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../front/trip/src/views/user/home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rudiments/back/part/Spring.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rudiments/back/part/Spring.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rudiments/back/part/数据库.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rudiments/back/part/数据库.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,29 +85,35 @@
     </option>
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
+  &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="2z7H10ptZx1qW1pzm9DKKyZENPE" />
+  <component name="ProjectId" id="2ziguJd5WJ3a4wye8LkbegCyOOf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JAR 应用程序.未命名.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;leetcode.id&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -71,16 +122,20 @@
       </set>
     </attachedChunks>
   </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myConnectionType" value="CURRENT_VAGRANT" />
+    <option name="myConnectionId" value="" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="58b0895a-343f-45b1-8582-1e60f75dc837" name="更改" comment="" />
+      <changelist id="7161a751-682d-43b4-966d-3807cc095e9a" name="更改" comment="" />
       <created>1744973844437</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744973844437</updated>
       <workItem from="1744973848037" duration="1034000" />
-      <workItem from="1751074974590" duration="148000" />
-      <workItem from="1751103499033" duration="1204000" />
+      <workItem from="1752219532961" duration="1836000" />
+      <workItem from="1752221408393" duration="4000" />
     </task>
     <servers />
   </component>

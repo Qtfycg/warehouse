@@ -1,4 +1,9 @@
 dependencies {
-
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-mail', version: '3.5.3'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-amqp', version: '3.5.3'
+    /*common*/
+    implementation project(':common')
+    /*web*/
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '3.5.0'
 }
 

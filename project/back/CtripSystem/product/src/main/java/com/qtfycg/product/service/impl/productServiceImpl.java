@@ -28,9 +28,6 @@ public class productServiceImpl extends ServiceImpl<productMapper, product> impl
                     // 描述
                     .like(product::getDescription, keyword)
                     .or()
-                    // 价格
-                    .like(product::getPrice, keyword)
-                    .or()
                     // 状态
                     .like(product::getStatus, keyword)
                     .or()

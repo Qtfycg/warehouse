@@ -1,0 +1,56 @@
+spring:
+  application:
+    name: gateway
+  data:
+    redis:
+      database: 1
+      host: '112.124.24.102'
+      port: 6379
+      password: '050416'
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        prefer-ip-address: true
+      config:
+        profile-separator: '-'
+        format: yaml
+    gateway:
+      server:
+       webflux:
+        discovery:
+          locator:
+            enabled: true
+            lower-case-service-id: true
+        routes:
+
+          - id: user
+            uri: lb://user
+            predicates:
+              - Path=/api/user/**
+
+          - id: product
+            uri: lb://product
+            predicates:
+              - Path=/api/product/**
+
+          - id: admin
+            uri: lb://admin
+            predicates:
+              - Path=/api/admin/**
+
+          - id: file
+            uri: lb://file
+            predicates:
+              - Path=/api/file/**
+security:
+  ignore:
+    urls:
+      - /api/user/login
+      - /api/user/register
+      - /api/user/captcha
+      - /api/admin/login
+
+
+

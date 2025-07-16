@@ -4,6 +4,9 @@
 
 <template>
   <!--HTML-->
+  <div class="home">
+
+  </div>
 </template>
 
 

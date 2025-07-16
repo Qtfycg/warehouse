@@ -10,24 +10,14 @@ import java.util.Date;
 @Data
 public class order {
     private Long id;
-
     private Long userId;
-
     private Long productId;
-
     private Integer quantity;
-
     private BigDecimal amount;
-
     private String status;
-
     private String contactName;
-
     private String contactPhone;
-
     private String remark;
-
     private Date createTime;
-
     private Date updateTime;
 }

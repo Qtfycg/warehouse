@@ -118,6 +118,38 @@ public class adminServiceImpl extends ServiceImpl<adminMapper, user> implements 
         }
     }
 
+    @Login
+    @Override
+    public R updateUserStatus(Long id) {
+        Long userId = loginHolder.getUserId();
+        user getVo = baseMapper.selectById(userId);
+        if (getVo == null) {
+            return R.error()
+                    .code(501)
+                    .message("账号不存在，请先登录");
+        }else {
+            if( getVo.getRole() == 1) {
+                return R.error()
+                        .code(501)
+                        .message("该账号不是管理员账号，请使用管理员账号登录");
+            } else {
+                // 更新用户状态
+                user user = this.getById(id);
+                if (user == null) {
+                    return R.error()
+                            .code(502)
+                            .message("用户不存在");
+                }
+                user.setStatus(user.getStatus() == 1 ? 0 : 1);
+                this.updateById(user);
+                return R.ok()
+                        .code(400)
+                        .message("用户状态更新成功")
+                        .data("user", user);
+            }
+        }
+    }
+
 }
 
 

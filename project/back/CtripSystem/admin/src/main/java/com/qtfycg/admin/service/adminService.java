@@ -12,4 +12,5 @@ public interface adminService extends IService<user> {
     R login(loginVo loginVo, HttpServletResponse response);
     R getInfo();
     R getList(Integer page, Integer size, String keyword);
+    R updateUserStatus(Long id);
 }

@@ -39,4 +39,12 @@ public class adminController {
                          @RequestParam(value = "keyword",required = false) String keyword ) {
         return adminService.getList(page, size, keyword);
     }
+
+    /*
+    * 用户状态管理
+    * */
+    @PatchMapping("/user/{id}/status")
+    public R userStatus(@PathVariable("id") Long id) {
+        return adminService.updateUserStatus(id);
+    }
 }

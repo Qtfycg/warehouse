@@ -1,22 +1,5 @@
 spring:
-  application:
-    name: order
-  config:
-    import: optional:classpath:application-datasource.yml
-  datasource:
-    username: root
-    password: '050416'
-    url: jdbc:mysql://localhost:3306/ctripSystem?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
-  threads:
-    virtual:
-      enabled: true
-  cloud:
-    consul:
-      host: localhost
-      port: 8500
-      discovery:
-        service-name: order
-        prefer-ip-address: true
-        register: true
+  profiles:
+    active: dev
 server:
   port: 8084

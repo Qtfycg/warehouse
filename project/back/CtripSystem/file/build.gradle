@@ -1,4 +1,7 @@
 dependencies {
+    implementation group: 'com.aliyun.oss', name: 'aliyun-sdk-oss', version: '3.18.3'
+    /*web*/
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '3.5.0'
 
 }
 
