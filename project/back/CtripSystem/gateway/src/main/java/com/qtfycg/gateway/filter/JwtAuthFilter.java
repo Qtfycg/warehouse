@@ -1,6 +1,5 @@
 package com.qtfycg.gateway.filter;
 
-import com.qtfycg.common.JWT.jwtUtils;
 import com.qtfycg.gateway.config.IgnoreUrlsConfig;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;

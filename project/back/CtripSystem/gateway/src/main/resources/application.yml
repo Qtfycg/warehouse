@@ -1,3 +1,36 @@
 
 server:
   port: 8080
+spring:
+  cloud:
+    gateway:
+      server:
+        webflux:
+          discovery:
+            locator:
+              enabled: true
+              lower-case-service-id: true
+          routes:
+            - id: user
+              uri: lb://user
+              predicates:
+                - Path=/api/user/**
+            - id: product
+              uri: lb://product
+              predicates:
+                - Path=/api/product/**
+            - id: admin
+              uri: lb://admin
+              predicates:
+                - Path=/api/admin/**
+            - id: file
+              uri: lb://file
+              predicates:
+                - Path=/api/file/**
+security:
+  ignore:
+    urls:
+      - /api/user/login
+      - /api/user/register
+      - /api/user/captcha
+      - /api/admin/login

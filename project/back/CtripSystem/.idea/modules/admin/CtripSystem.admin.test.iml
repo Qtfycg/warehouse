@@ -17,6 +17,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="CtripSystem.admin.main" />
+    <orderEntry type="library" name="Gradle: com.alibaba:druid-spring-boot-starter:1.2.25" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-actuator:3.5.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:3.5.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-security:3.5.0" level="project" />
@@ -31,6 +32,10 @@
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-devtools:3.5.3" level="project" />
     <orderEntry type="library" name="Gradle: com.mysql:mysql-connector-j:9.3.0" level="project" />
     <orderEntry type="module" module-name="CtripSystem.common.main" />
+    <orderEntry type="library" name="Gradle: com.alibaba:druid:1.2.25" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:2.0.17" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:3.5.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.glassfish.jaxb:jaxb-runtime:2.3.2" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-actuator-autoconfigure:3.5.0" level="project" />
     <orderEntry type="library" name="Gradle: io.micrometer:micrometer-jakarta9:1.15.0" level="project" />
     <orderEntry type="library" name="Gradle: io.micrometer:micrometer-observation:1.15.0" level="project" />
@@ -44,25 +49,30 @@
     <orderEntry type="library" name="Gradle: org.springframework.data:spring-data-redis:3.5.0" level="project" />
     <orderEntry type="library" name="Gradle: io.lettuce:lettuce-core:6.5.5.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter:4.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.github.openfeign:feign-slf4j:13.6" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-openfeign-core:4.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-commons:4.3.0" level="project" />
-    <orderEntry type="library" name="Gradle: io.github.openfeign:feign-slf4j:13.6" level="project" />
     <orderEntry type="library" name="Gradle: io.github.openfeign:feign-core:13.6" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-consul:4.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-loadbalancer:4.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-consul-discovery:4.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-consul-config:4.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-jdbc:3.4.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:3.5.3" level="project" />
     <orderEntry type="library" name="Gradle: com.baomidou:mybatis-plus:3.5.12" level="project" />
     <orderEntry type="library" name="Gradle: org.mybatis:mybatis-spring:3.0.4" level="project" />
     <orderEntry type="library" name="Gradle: com.baomidou:mybatis-plus-spring-boot-autoconfigure:3.5.12" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:3.5.3" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-logging:3.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:3.5.3" level="project" />
     <orderEntry type="library" name="Gradle: jakarta.annotation:jakarta.annotation-api:2.1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-core:6.2.8" level="project" />
     <orderEntry type="library" name="Gradle: org.yaml:snakeyaml:2.4" level="project" />
     <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java:4.29.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jvnet.staxex:stax-ex:1.8.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: jakarta.xml.bind:jakarta.xml.bind-api:2.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.glassfish.jaxb:txw2:2.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.sun.istack:istack-commons-runtime:3.0.8" level="project" />
+    <orderEntry type="library" name="Gradle: com.sun.xml.fastinfoset:FastInfoset:1.2.16" level="project" />
+    <orderEntry type="library" name="Gradle: jakarta.activation:jakarta.activation-api:1.2.1" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-actuator:3.5.0" level="project" />
     <orderEntry type="library" name="Gradle: io.micrometer:micrometer-core:1.15.0" level="project" />
     <orderEntry type="library" name="Gradle: io.micrometer:micrometer-commons:1.15.0" level="project" />
@@ -81,7 +91,6 @@
     <orderEntry type="library" name="Gradle: org.springframework:spring-context-support:6.2.7" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-tx:6.2.7" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-oxm:6.2.7" level="project" />
-    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:2.0.17" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.1.118.Final" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-transport:4.1.118.Final" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-common:4.1.118.Final" level="project" />
@@ -98,8 +107,8 @@
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-cache:3.5.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-loadbalancer:4.3.0" level="project" />
     <orderEntry type="library" name="Gradle: com.stoyanr:evictor:1.0.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework:spring-jdbc:6.2.1" level="project" />
     <orderEntry type="library" name="Gradle: com.zaxxer:HikariCP:5.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-jdbc:6.2.1" level="project" />
     <orderEntry type="library" name="Gradle: com.baomidou:mybatis-plus-spring:3.5.12" level="project" />
     <orderEntry type="library" name="Gradle: com.baomidou:mybatis-plus-core:3.5.12" level="project" />
     <orderEntry type="library" name="Gradle: com.baomidou:mybatis-plus-annotation:3.5.12" level="project" />
@@ -134,26 +143,18 @@
     <orderEntry type="library" name="Gradle: com.fasterxml:classmate:1.5.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.boot:spring-boot-starter-aop:3.5.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.boot:spring-boot-starter-amqp:3.5.3" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.alibaba:druid-spring-boot-starter:1.2.24" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.auth0:java-jwt:4.5.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: jakarta.servlet:jakarta.servlet-api:6.0.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.aspectj:aspectjweaver:1.9.24" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.amqp:spring-rabbit:3.2.5" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework:spring-messaging:6.2.8" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.alibaba:druid:1.2.24" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.glassfish.jaxb:jaxb-runtime:2.3.2" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.amqp:spring-amqp:3.2.5" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.rabbitmq:amqp-client:5.22.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jvnet.staxex:stax-ex:1.8.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: jakarta.xml.bind:jakarta.xml.bind-api:3.0.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.glassfish.jaxb:txw2:2.3.2" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.sun.istack:istack-commons-runtime:3.0.8" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.sun.xml.fastinfoset:FastInfoset:1.2.16" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: jakarta.activation:jakarta.activation-api:1.2.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.rabbitmq:amqp-client:5.22.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.amqp:spring-amqp:3.2.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.sun.activation:jakarta.activation:2.0.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.hdrhistogram:HdrHistogram:2.2.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.latencyutils:LatencyUtils:2.0.3" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.retry:spring-retry:2.0.11" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.sun.activation:jakarta.activation:2.0.1" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="CtripSystem.admin.main" />
 </module>

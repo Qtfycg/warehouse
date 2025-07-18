@@ -35,7 +35,7 @@ public class travelServiceImpl extends ServiceImpl<travelMapper, travel>
                     .message("该线路已存在，请勿重复添加");
         }else {
             travel travel = new travel();
-            SnowflakeIdGenerator idGenerator = new SnowflakeIdGenerator(1, 1);
+            SnowflakeIdGenerator idGenerator = new SnowflakeIdGenerator(1, 2);
             Long id = idGenerator.nextId();
             travel.setId(id);
             travel.setTrips(createVo.getTrips());

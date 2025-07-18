@@ -2,9 +2,21 @@ package com.qtfycg.order.domain.Vo;
 
 import lombok.Data;
 
+import java.math.BigDecimal;
+import java.util.Date;
+
 @Data
 public class createVo {
-    private Long userId; // 用户ID
-    private Long productId; // 商品ID
-    private String phone; // 联系电话
+    private Long id;
+    private Long userId;
+    private Long productId;
+    private Integer quantity;
+    private BigDecimal amount;
+    private String status;
+    private String name;
+    private String phone;
+    private String address;
+    private String remark;
+    private Date createTime;
+    private Date updateTime;
 }

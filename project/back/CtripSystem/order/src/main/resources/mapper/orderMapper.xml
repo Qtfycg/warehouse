@@ -11,8 +11,9 @@
             <result property="quantity" column="quantity" />
             <result property="amount" column="amount" />
             <result property="status" column="status" />
-            <result property="contactName" column="contact_name" />
-            <result property="contactPhone" column="contact_phone" />
+            <result property="name" column="name" />
+            <result property="phone" column="phone" />
+            <result property="address" column="adress"/>
             <result property="remark" column="remark" />
             <result property="createTime" column="create_time" />
             <result property="updateTime" column="update_time" />
@@ -20,6 +21,6 @@
 
     <sql id="Base_Column_List">
         id,user_id,product_id,quantity,amount,status,
-        contact_name,contact_phone,remark,create_time,update_time
+        name,phone,adress,remark,create_time,update_time
     </sql>
 </mapper>

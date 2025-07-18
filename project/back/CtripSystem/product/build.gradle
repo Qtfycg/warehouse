@@ -2,6 +2,8 @@
 dependencies {
     /*web*/
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '3.5.0'
+    /*druid*/
+    implementation group: 'com.alibaba', name: 'druid-spring-boot-starter', version: '1.2.25'
     /*mysql*/
     implementation group: 'com.mysql', name: 'mysql-connector-j', version: '9.3.0'
     /*mybatis-plus*/

@@ -6,7 +6,8 @@ spring:
       host: localhost
       port: 8500
       discovery:
-        service-name: ${spring.application.name}
+        service-name: file
+        prefer-ip-address: true
       config:
         profile-separator: '-'
         format: yaml

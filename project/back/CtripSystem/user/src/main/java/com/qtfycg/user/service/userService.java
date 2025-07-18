@@ -8,6 +8,7 @@ import com.qtfycg.user.domain.Vo.registerVo;
 import com.qtfycg.user.domain.Vo.updateVo;
 import com.qtfycg.user.domain.entity.user;
 import jakarta.servlet.http.HttpServletResponse;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.awt.*;
 import java.io.IOException;
@@ -20,4 +21,5 @@ public interface userService extends IService<user> {
     R captcha(String phone) throws IOException, FontFormatException;
     R getInfo();
     R updateInfo(updateVo updateVo);
+    R updateAvatar(MultipartFile avatar) throws Exception;
 }

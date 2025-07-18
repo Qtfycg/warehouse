@@ -32,7 +32,7 @@ public class flightServiceImpl extends ServiceImpl<flightMapper, flight> impleme
                     .message("航班已存在");
         }else {
             flight flight = new flight();
-            SnowflakeIdGenerator idGenerator = new SnowflakeIdGenerator(1, 1);
+            SnowflakeIdGenerator idGenerator = new SnowflakeIdGenerator(1, 4);
             long id = idGenerator.nextId();
             flight.setId(id);
             flight.setFlights(createVo.getFlights());

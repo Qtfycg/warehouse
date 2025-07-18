@@ -15,8 +15,9 @@ public class order {
     private Integer quantity;
     private BigDecimal amount;
     private String status;
-    private String contactName;
-    private String contactPhone;
+    private String name;
+    private String phone;
+    private String address;
     private String remark;
     private Date createTime;
     private Date updateTime;

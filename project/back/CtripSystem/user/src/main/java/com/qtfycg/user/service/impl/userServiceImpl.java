@@ -1,6 +1,5 @@
 package com.qtfycg.user.service.impl;
 
-import ch.qos.logback.classic.pattern.MessageConverter;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.qtfycg.common.JWT.jwtUtils;
@@ -15,15 +14,16 @@ import com.qtfycg.user.domain.Vo.loginVo;
 import com.qtfycg.user.domain.Vo.registerVo;
 import com.qtfycg.user.domain.Vo.updateVo;
 import com.qtfycg.user.domain.entity.user;
+import com.qtfycg.user.feign.fileFeign;
 import com.qtfycg.user.mapper.userMapper;
 import com.qtfycg.user.service.userService;
 import com.wf.captcha.SpecCaptcha;
 import com.wf.captcha.base.Captcha;
 import jakarta.annotation.Resource;
 import jakarta.servlet.http.HttpServletResponse;
-import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.awt.*;
 import java.io.ByteArrayOutputStream;
@@ -44,6 +44,9 @@ public class userServiceImpl extends ServiceImpl<userMapper, user> implements us
     redisUtils redis;
     @Resource
     FanoutMessageSender fanoutMessageSender;
+    @Resource
+    fileFeign fileFeign;
+
 
 
 
@@ -74,6 +77,7 @@ public class userServiceImpl extends ServiceImpl<userMapper, user> implements us
             newUser.setPassword(encodedPassword);
             newUser.setName(registerVo.getName());
             newUser.setEmail(registerVo.getEmail());
+            newUser.setAvatar( "https://travel-my.oss-cn-beijing.aliyuncs.com/null5193b2fc-e4ca-420f-ba90-740fc90716df.png"); // 默认头像
             newUser.setStatus(1); // 默认状态为1
             baseMapper.insert(newUser);
             userRegistry userRegisterMessage = new userRegistry();
@@ -82,7 +86,6 @@ public class userServiceImpl extends ServiceImpl<userMapper, user> implements us
             userRegisterMessage.setUsername(newUser.getName());
             userRegisterMessage.setEmail(newUser.getEmail());
             fanoutMessageSender.send("user.register.exchange", userRegisterMessage);
-
             return R.ok()
                     .code(200)
                     .message("注册成功").
@@ -202,6 +205,37 @@ public class userServiceImpl extends ServiceImpl<userMapper, user> implements us
             return R.ok()
                     .code(200)
                     .message("个人信息更新成功")
+                    .data("user", existingUser);
+        }
+    }
+
+    @Login
+    @Override
+    public R updateAvatar(MultipartFile avatar) throws Exception{
+        Long userId = loginHolder.getUserId();
+        user existingUser = baseMapper.selectById(userId);
+        if (existingUser == null) {
+            return R.error()
+                    .code(303)
+                    .message("用户不存在");
+        }else {
+            if (avatar == null || avatar.isEmpty()) {
+                return R.error()
+                        .code(400)
+                        .message("上传的头像不能为空");
+            }
+            R uploadResult = fileFeign.upload(avatar);
+            if (uploadResult.getCode() != 1000) {
+                return R.error()
+                        .code(uploadResult.getCode())
+                        .message(uploadResult.getMessage());
+            }
+            String avatarUrl = uploadResult.getData().get("url").toString();
+            existingUser.setAvatar(avatarUrl);
+            baseMapper.updateById(existingUser);
+            return R.ok()
+                    .code(200)
+                    .message("头像更新成功")
                     .data("user", existingUser);
         }
     }

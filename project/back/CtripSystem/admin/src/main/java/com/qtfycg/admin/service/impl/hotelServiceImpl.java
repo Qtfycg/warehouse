@@ -36,7 +36,7 @@ public class hotelServiceImpl extends ServiceImpl<hotelMapper, hotel>
                     .message("酒店已存在，请勿重复添加");
         }else {
             hotel hotel = new hotel();
-            SnowflakeIdGenerator idGenerator = new SnowflakeIdGenerator(1, 1);
+            SnowflakeIdGenerator idGenerator = new SnowflakeIdGenerator(1, 3);
             long id = idGenerator.nextId();
             hotel.setId(id);
             hotel.setLocation(createVo.getLocation());

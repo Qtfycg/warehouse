@@ -24,7 +24,6 @@
         <module name="CtripSystem.marketing.main" />
         <module name="CtripSystem.gateway.main" />
         <module name="CtripSystem.stock.main" />
-        <module name="CtripSystem.config.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="21" />

@@ -7,7 +7,9 @@ import com.qtfycg.user.domain.Vo.updateVo;
 import com.qtfycg.user.service.userService;
 import jakarta.annotation.Resource;
 import jakarta.servlet.http.HttpServletResponse;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.awt.*;
 import java.io.IOException;
@@ -21,10 +23,11 @@ public class userController {
     /*
     * 用户注册接口
     * */
-    @PostMapping("/register")
-    public R register(@RequestBody registerVo registerVo) {
+    @PostMapping( "/register")
+    public R register(@RequestBody registerVo registerVo){
         return userService.register(registerVo);
     }
+
 
     /*
     * 用户登录接口
@@ -56,6 +59,11 @@ public class userController {
     @PutMapping("/update")
     public R updateUser(@RequestBody updateVo updateVo) {
         return userService.updateInfo(updateVo);
+    }
+
+    @PutMapping(value = "/updateAvatar", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
+    public R updateAvatar(@RequestPart("avatar") MultipartFile avatar) throws Exception{
+        return userService.updateAvatar(avatar);
     }
 
 }

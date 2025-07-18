@@ -11,8 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class orderController {
     @Resource
     orderService orderService;
-    // 订单相关的接口可以在这里定义
 
-    // 例如：创建订单、查询订单、取消订单等
 
 }

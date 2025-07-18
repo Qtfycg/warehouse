@@ -1,8 +1,4 @@
 dependencies {
-    /*mysql*/
-    implementation group: 'com.mysql', name: 'mysql-connector-j', version: '9.3.0'
-    /*druid*/
-    implementation group: 'com.alibaba', name: 'druid-spring-boot-starter', version: '1.2.24'
     /*JWT*/
     implementation group: 'com.auth0', name: 'java-jwt', version: '4.5.0'
     /*redis*/
@@ -13,10 +9,9 @@ dependencies {
     implementation group: 'com.baomidou', name: 'mybatis-plus-spring-boot3-starter', version: '3.5.12'
     /*Aop*/
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-aop', version: '3.5.0'
-    /*spring-web*/
-    implementation group: 'org.springframework', name: 'spring-web', version: '6.2.7'
     /*jakarta.servlet*/
     implementation 'jakarta.servlet:jakarta.servlet-api:6.0.0'
+    /*amqp*/
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-amqp', version: '3.5.3'
 
 
