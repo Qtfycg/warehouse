@@ -48,9 +48,10 @@ public class travelServiceImpl extends ServiceImpl<travelMapper, travel>
             travel.setStock(createVo.getStock());
             product product = new product();
             product.setId(id);
+            product.setPrice(createVo.getPrice());
             product.setName(createVo.getName());
-            product.setType(2);
-            product.setStatus(1);
+            product.setType(2);// 2-火车票
+            product.setStatus(1);// 1-上架
             product.setDescription(createVo.getDescription());
             product.setStock(createVo.getStock());
             this.save(travel);

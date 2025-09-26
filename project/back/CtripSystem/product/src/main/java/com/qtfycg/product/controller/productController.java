@@ -4,11 +4,9 @@ import com.qtfycg.common.R.R;
 import com.qtfycg.product.service.productService;
 import jakarta.annotation.Resource;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/product")
 public class productController {
     @Resource
     productService productService;

@@ -7,7 +7,7 @@ import jakarta.annotation.Resource;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/admin/product/flight")
+@RequestMapping("/flight")
 public class flightController {
 
     @Resource

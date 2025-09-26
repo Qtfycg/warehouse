@@ -2,6 +2,7 @@ package com.qtfycg.admin.domain.Vo;
 
 import lombok.Data;
 
+import java.math.BigDecimal;
 import java.time.LocalDate;
 
 @Data
@@ -9,7 +10,7 @@ public class createVo {
     /*共有*/
     private Long id;
     private Integer stock;
-    private String price;
+    private BigDecimal price;
 
 
 
@@ -31,6 +32,7 @@ public class createVo {
 
     /*酒店*/
     private String location;
+    private String avatar;
 
     /*火车*/
     private String trips;

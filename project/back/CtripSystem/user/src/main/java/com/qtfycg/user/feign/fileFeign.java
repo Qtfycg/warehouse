@@ -9,6 +9,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 @FeignClient(name = "file")
 public interface fileFeign {
-    @PostMapping(value = "/api/file/upload", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
+    @PostMapping(value = "/upload", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     R upload(@RequestPart("file") MultipartFile file);
 }

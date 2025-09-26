@@ -7,6 +7,8 @@ public class updateVo {
     private String name;
     private String email;
     private String phone;
+    private String address;
+    private String username;
 
 
 }

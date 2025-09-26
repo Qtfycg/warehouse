@@ -4,6 +4,8 @@ package com.qtfycg.product.domain.entity;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
+import java.math.BigDecimal;
+
 
 @Data
 @TableName("product")
@@ -19,4 +21,5 @@ public class product {
     private Long type;
 
     private Integer status;
+    private BigDecimal price;
 }

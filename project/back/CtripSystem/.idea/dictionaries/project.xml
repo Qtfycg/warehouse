@@ -4,6 +4,7 @@
       <w>arrivetime</w>
       <w>ctrip</w>
       <w>departuretime</w>
+      <w>filefeign</w>
       <w>nacos</w>
     </words>
   </dictionary>

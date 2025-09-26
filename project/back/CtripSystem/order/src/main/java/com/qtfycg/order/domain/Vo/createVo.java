@@ -12,7 +12,7 @@ public class createVo {
     private Long productId;
     private Integer quantity;
     private BigDecimal amount;
-    private String status;
+    private Integer status;
     private String name;
     private String phone;
     private String address;

@@ -43,12 +43,12 @@ public class flightServiceImpl extends ServiceImpl<flightMapper, flight> impleme
             flight.setArrivetime(createVo.getArrivetime());
             flight.setStock(createVo.getStock());
 
-
             product product = new product();
             product.setId(id);
             product.setStatus(1);
             product.setStock(createVo.getStock());
             product.setName(createVo.getName());
+            product.setPrice(createVo.getPrice());
             product.setType(3);
             product.setDescription(createVo.getDescription());
             this.save(flight);

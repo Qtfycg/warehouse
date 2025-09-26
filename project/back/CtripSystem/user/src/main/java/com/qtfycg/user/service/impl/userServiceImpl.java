@@ -201,6 +201,8 @@ public class userServiceImpl extends ServiceImpl<userMapper, user> implements us
             existingUser.setName(updateVo.getName());
             existingUser.setEmail(updateVo.getEmail());
             existingUser.setPhone(updateVo.getPhone());
+            existingUser.setUsername(updateVo.getUsername());
+            existingUser.setAddress(updateVo.getAddress());
             baseMapper.updateById(existingUser);
             return R.ok()
                     .code(200)

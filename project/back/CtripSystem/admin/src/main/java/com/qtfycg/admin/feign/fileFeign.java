@@ -1,4 +1,4 @@
-package com.qtfycg.product.feign;
+package com.qtfycg.admin.feign;
 
 import com.qtfycg.common.R.R;
 import org.springframework.cloud.openfeign.FeignClient;

@@ -15,7 +15,6 @@ import java.awt.*;
 import java.io.IOException;
 
 @RestController
-@RequestMapping("/api/user")
 public class userController {
     @Resource
     userService userService;

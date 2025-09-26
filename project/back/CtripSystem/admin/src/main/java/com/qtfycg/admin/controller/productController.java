@@ -6,7 +6,6 @@ import jakarta.annotation.Resource;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("api/admin")
 public class productController {
     @Resource
     productService productService;

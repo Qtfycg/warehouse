@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qtfycg.admin.mapper.hotelMapper">
+
+    <resultMap id="BaseResultMap" type="com.qtfycg.admin.domain.entity.hotel">
+            <id property="id" column="id" />
+            <result property="location" column="location" />
+            <result property="price" column="price" />
+            <result property="stock" column="stock" />
+            <result property="description" column="description" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,location,price,stock,description
+    </sql>
+</mapper>

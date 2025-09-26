@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qtfycg.admin.mapper.flightMapper">
+
+    <resultMap id="BaseResultMap" type="com.qtfycg.admin.domain.entity.flight">
+           <id property="id" column="id" />
+            <result property="flights" column="flights" />
+            <result property="start" column="start" />
+            <result property="endpoint" column="endpoint" />
+            <result property="price" column="price" />
+            <result property="departuretime" column="departuretime" />
+            <result property="arrivetime" column="arrivetime" />
+            <result property="stock" column="stock" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,flights,start,endpoint,price,departureTime,
+        arriveTime,stock
+    </sql>
+</mapper>

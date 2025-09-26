@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qtfycg.admin.mapper.travelMapper">
+
+    <resultMap id="BaseResultMap" type="com.qtfycg.admin.domain.entity.travel">
+            <id property="id" column="id" />
+            <result property="trips" column="trips" />
+            <result property="start" column="start" />
+            <result property="endpoint" column="endpoint" />
+            <result property="price" column="price" />
+            <result property="departuretime" column="departureTime" />
+            <result property="arrivetime" column="arriveTime" />
+            <result property="pathway" column="pathway" />
+            <result property="stock" column="stock" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,trips,start,endpoint,price,departureTime,
+        arriveTime,pathway,stock
+    </sql>
+</mapper>
