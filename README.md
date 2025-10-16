@@ -1,59 +1,26 @@
-# warehouse
+# 🚀 Warehouse
+> Java学习之路 · Java / MySQL / Redis 
 
-```text
-求职过程中所写的项目，技术栈包含较为完善，项目文档还在加急赶工中。
-```
+<div style="background-color:#f6f8fa; padding:12px; border-radius:8px;">
+💡 简介  
 
-## 1.project
+Warehouse 是一套面向求职准备的综合实战项目，涵盖后端、前端与工程化。  
+通过真实问题驱动设计与优化，追求**可读性、可扩展性与可观测性**。
+</div>
 
-### 1.1 back
+## 🧩 技术栈
+- **后端**：Java 17, Spring Boot 3, MyBatis-Plus, Redis, MySQL
+- **前端**：Vue 3, TypeScript, Vite
+- **工程化**：Docker, GitHub Actions, 单元/集成测试
 
-#### 1.1.1
+## 🔥 核心亮点
+- 模块化架构与统一规范  
+- 缓存策略与异步化处理  
+- Docker 一键部署  
+- 性能监控与链路追踪
 
-```text
-```
-
-#### 1.1.2
-
-```text
-```
-
-#### 1.1.3
-
-```text
-```
-
-#### 1.1.4
-
-```text
-```
-
-### 1.2 Pdocumentation
-
-#### 1.2.1
-
-```text
-```
-
-#### 1.2.2
-
-```text
-```
-
-#### 1.2.3
-
-```text
-```
-
-#### 1.2.4
-
-```text
-```
-
-## 2.rudiments
-
-### 2.1 back
-
-### 2.2 front
-
-### 2.3 EightStrands
+## 🚀 快速启动
+```bash
+git clone https://github.com/Qtfycg/warehouse.git
+./mvnw spring-boot:run
+cd web && npm install && npm run dev
