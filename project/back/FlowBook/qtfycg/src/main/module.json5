@@ -1,0 +1,50 @@
+{
+  "module": {
+    "name": "qtfycg",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "QtfycgAbility",
+    "deviceTypes": [
+      "phone"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "QtfycgAbility",
+        "srcEntry": "./ets/qtfycgability/QtfycgAbility.ets",
+        "description": "$string:QtfycgAbility_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:QtfycgAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "ohos.want.action.home"
+            ]
+          }
+        ]
+      }
+    ],
+    "extensionAbilities": [
+      {
+        "name": "QtfycgBackupAbility",
+        "srcEntry": "./ets/qtfycgbackupability/QtfycgBackupAbility.ets",
+        "type": "backup",
+        "exported": false,
+        "metadata": [
+          {
+            "name": "ohos.extension.backup",
+            "resource": "$profile:backup_config"
+          }
+        ],
+      }
+    ]
+  }
+}

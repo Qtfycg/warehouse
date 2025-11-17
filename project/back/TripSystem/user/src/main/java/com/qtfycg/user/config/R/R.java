@@ -1,4 +1,4 @@
-package com.qtfycg.common.R;
+package com.qtfycg.user.config.R;
 
 import lombok.Data;
 
