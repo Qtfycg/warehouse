@@ -1,9 +1,0 @@
-spring:
-  application:
-    name: common
-  data:
-    redis:
-      host: 112.124.24.102
-      port: 6379
-      password: '050416'
-      database: 1
