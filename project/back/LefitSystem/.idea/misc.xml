@@ -3,12 +3,14 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$" />
   </component>
   <component name="Kotlin2JsCompilerArguments">
     <option name="moduleKind" value="plain" />
+  </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="KotlinNotebookOptionsProvider">
     <option name="heapMaxLimitInMib" value="2048" />
@@ -16,7 +18,7 @@
     <option name="jvmTargetForSnippets" value="21" />
     <option name="shouldLimitTypeHintsByActiveCell" value="true" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider">{}</component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>

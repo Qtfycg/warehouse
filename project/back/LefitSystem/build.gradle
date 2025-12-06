@@ -1,35 +1,29 @@
 plugins {
-    id 'java'
-    id 'io.spring.dependency-management' version '1.1.4' apply false
-}
-allprojects {
-    group = 'com.qtfycg'
-    version = '1.0.0'
-    repositories {
-        mavenCentral()
-    }
+	id 'java'
+	id 'org.springframework.boot' version '3.5.8'
+	id 'io.spring.dependency-management' version '1.1.7'
 }
 
-subprojects {
-    apply plugin: 'java'
-    apply plugin: 'io.spring.dependency-management'
+group = 'com.qtfycg'
+version = '0.0.1-SNAPSHOT'
+description = 'LefitSystem'
 
-    java {
-        sourceCompatibility = JavaVersion.toVersion(project.findProperty("javaVersion"))
-        targetCompatibility = JavaVersion.toVersion(project.findProperty("javaVersion"))
-    }
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(21)
+	}
+}
 
-    dependencies {
-        /*starter*/
-        implementation group: 'org.springframework.boot', name: 'spring-boot-starter', version: '3.5.0'
-        /*lombok*/
-        implementation group: 'org.projectlombok', name: 'lombok', version: '1.18.38'
-        annotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.38'
+repositories {
+	mavenCentral()
+}
 
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
 
-    }
-
-    test {
-        useJUnitPlatform()
-    }
+tasks.named('test') {
+	useJUnitPlatform()
 }

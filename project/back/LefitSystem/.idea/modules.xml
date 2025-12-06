@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/front/front.iml" filepath="$PROJECT_DIR$/front/front.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LefitSystem.iml" filepath="$PROJECT_DIR$/LefitSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LefitSystem.main.iml" filepath="$PROJECT_DIR$/.idea/modules/LefitSystem.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LefitSystem.test.iml" filepath="$PROJECT_DIR$/.idea/modules/LefitSystem.test.iml" />
     </modules>
   </component>
 </project>
