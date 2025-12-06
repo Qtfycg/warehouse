@@ -4,99 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bfa4799-0549-4e50-8dc7-7ff820366014" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/.gradle/8.9/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LefitSystem/.gradle/8.9/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/.gradle/8.9/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LefitSystem/.gradle/8.9/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/.gradle/8.9/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LefitSystem/.gradle/8.9/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/.gradle/8.9/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LefitSystem/.gradle/8.9/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/.gradle/8.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LefitSystem/.gradle/8.9/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/.gradle/8.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LefitSystem/.gradle/8.9/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LefitSystem/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../LefitSystem/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LefitSystem/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/.idea/dictionaries/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LefitSystem/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LefitSystem/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LefitSystem/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/admin/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/auth/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../LefitSystem/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/common/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/config/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/config/src/main/resources/application-datasource.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/config/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/course/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/front/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/front/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/front/eslint.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/front/front.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/front/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/front/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/front/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/front/public/vite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/front/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/front/src/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/front/src/assets/react.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/front/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/front/src/main.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/front/vite.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/gateway/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/infra/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/job/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/order/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../LefitSystem/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/user/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/user/src/main/java/com/qtfycg/user/userSpringApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LefitSystem/user/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/07770677-8ddf-46e3-a2c7-0082d798632e.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/07770677-8ddf-46e3-a2c7-0082d798632e/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/07770677-8ddf-46e3-a2c7-0082d798632e/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/07770677-8ddf-46e3-a2c7-0082d798632e/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/07770677-8ddf-46e3-a2c7-0082d798632e/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ff48e305-d7ed-472e-9e5e-bbd919920542.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/api-spec.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/architecture.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/coding-style.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/faq.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/qtfycg/user/config/JWT/JwtUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/qtfycg/user/config/R/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/qtfycg/user/config/R/ResultCodeEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/qtfycg/user/config/Redis/RedisConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/qtfycg/user/config/annotation/getPhone/WebMvcConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/qtfycg/user/config/annotation/getPhone/getPhone.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/qtfycg/user/config/annotation/getPhone/parser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/qtfycg/user/config/security/Bcrypt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/qtfycg/user/config/security/Captcha.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/qtfycg/user/config/security/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/qtfycg/user/controller/userController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/qtfycg/user/domain/Vo/addVo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/qtfycg/user/domain/Vo/loginVo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/qtfycg/user/domain/Vo/registryVo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/qtfycg/user/domain/entity/user.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/qtfycg/user/mapper/userMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/qtfycg/user/service/impl/userServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/qtfycg/user/service/userService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/qtfycg/user/userApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/resources/mapper/userMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../rudiments/back/part/牛客刷题" beforeDir="false" />
-    </list>
+    <list default="true" id="3bfa4799-0549-4e50-8dc7-7ff820366014" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,19 +61,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.TripSystem [clean].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propCompiler",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.TripSystem [clean].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="TripSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="TripSystem" />
@@ -193,6 +101,7 @@
       <workItem from="1765011956125" duration="85000" />
       <workItem from="1765013095380" duration="11000" />
       <workItem from="1765013257850" duration="60000" />
+      <workItem from="1765016234273" duration="21000" />
     </task>
     <servers />
   </component>
