@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/LefitSystem.iml" filepath="$PROJECT_DIR$/.idea/LefitSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/lefitsystem.iml" filepath="$PROJECT_DIR$/.idea/lefitsystem.iml" />
     </modules>
   </component>
 </project>
