@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: gateway
+  config:
+    import: "optional:consul:127.0.0.1:8500"
+  profiles:
+    active: dev
+  cloud:
+    consul:
+      host: 127.0.0.1
+      port: 8500
+      discovery:
+        enabled: true
+        register: true
+        service-name: ${spring.application.name}
+        prefer-ip-address: true
+        health-check-path: /actuator/health
+        health-check-interval: 10s
+        health-check-timeout: 5s
+        health-check-critical-timeout: 15s
+      config:
+        enabled: true
+        prefixes:
+          - config
+        default-context: application
+        profile-separator: _
+        format: yaml
+        data-key: data
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,refresh,gateway
